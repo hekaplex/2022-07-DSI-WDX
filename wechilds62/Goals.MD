@@ -11,7 +11,8 @@ Add your own folder and answer these questions in a Goals.MD:
     * DS Data Scientist
    
 6. Find an initial dataset you want to use for Capstone
-   * A Search Engine
+   * TBD
 8. List first idea of goals for Capstone
    * Incorporate all facets of learnng into my Capstone
+   * TBD 
 
