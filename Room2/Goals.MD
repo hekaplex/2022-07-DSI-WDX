@@ -12,7 +12,7 @@ DA Data Analyst
 
 Find an initial dataset you want to use for Capstone
 
-Capstone TBD
+Capstone TBD, maybe degrees sought by state
 
 List first idea of goals for Capstone
 
