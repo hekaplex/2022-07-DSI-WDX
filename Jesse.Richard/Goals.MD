@@ -11,4 +11,4 @@ Add your own folder and answer these questions in a Goals.MD:
 4. Find an initial dataset you want to use for Capstone
   * Data set that describes airport delays, cancellations, and on-time departures.
 5. List first idea of goals for Capstone
-  * Find trends to allow for airlines to reallocate jets, crews, and maintenance to avoid negative outcomes.
+  * Find trends to allow for airlines to re-allocate jets, crews, and maintenance to avoid negative outcomes.
