@@ -7,7 +7,7 @@ Add your own folder and answer these questions in a Goals.MD:
 2. List one goal for between now and Jan 2024
   * Have a full time job in the field
 3. Choose a role for your capstone
-   * DS Data Scientist
+  * DS Data Scientist
 4. Find an initial dataset you want to use for Capstone
   * Data set that describes airport delays, cancellations, and on-time departures.
 5. List first idea of goals for Capstone
