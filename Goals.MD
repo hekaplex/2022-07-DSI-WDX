@@ -1,14 +1,5 @@
-**Initial Exercise for AM Jul 11**
-
-Add your own folder and answer these questions in a Goals.MD:
-
-1. List one goal for between now and Jan 2023
-   Start a Job in DS
-3. List one goal for between now and Jan 2024
-   Earn a MS in Data Science
-5. Choose a role for your capstone
-   DS Data Scientist
-6. Find an initial dataset you want to use for Capstone
-   Increase 
-8. List first idea of goals for Capstone
-   
+List one goal for between now and Jan 2023 - I would like be able to test for Comptia Data 
+List one goal for between now and Jan 2024 - move into a full data scientist role
+DS
+Find an initial dataset you want to use for Capstone - Mortgage intrest rates
+List first idea of goals for Capstone - to discover intrest rates correlation to credit scores
