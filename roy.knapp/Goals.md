@@ -5,6 +5,6 @@ List one goal for between now and Jan 2024
 Choose a role for your capstone
 -What ever role is needed I have no preference
 Find an initial dataset you want to use for Capstone
--Still looking
+-Still looking for a data set
 List first idea of goals for Capstone
 -Undecided
