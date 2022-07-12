@@ -7,6 +7,7 @@ Add your own folder and answer these questions in a Goals.MD:
    * Prepare Resume 
 3. List one goal for between now and Jan 2024
    * Get Hired 
+   * Pass Exams
 5. Choose a role for your capstone
     * DS Data Scientist
    
