@@ -1,7 +1,7 @@
 List one goal for between now and Jan 2023
 
 Learn new skills
-
+testtest
 List one goal for between now and Jan 2024
 
 Have a better plan in mind for the trajectory of my career in tech.
