@@ -3,4 +3,4 @@
 4. Choose a role for your capstone.
    1. DA Data Analyst
 5. Find an initial dataset you want to use for Capstone: My initial dataset for my Capstone is Water quality and availability data set.
-6. List first idea of goals for Capstone: My first idea of goals for Capstone is looking at the availibility of water in Texas and the quality for use. 
+6. List first idea of goals for Capstone: My first idea of goals for Capstone is looking at the availibility of water in Texas and the quality for use
