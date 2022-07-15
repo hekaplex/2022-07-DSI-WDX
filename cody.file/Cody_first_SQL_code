@@ -1,0 +1,4 @@
+-- Very lost but here it goes
+Select [VendorName], [VendorState]
+From [dbo].[Vendors]
+Where [VendorState] = 'TX'
