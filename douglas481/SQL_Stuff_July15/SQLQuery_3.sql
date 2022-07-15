@@ -1,4 +1,4 @@
---Vendor IDs of companies who had invoices for more than $5000
+--Vendor IDs of companies who owe more than $5000
 Select [VendorID], SUM([InvoiceTotal]-[PaymentTotal]) as [BalanceOwed]
 From [dbo].[Invoices]
 Group by [VendorID]
