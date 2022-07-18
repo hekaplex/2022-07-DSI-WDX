@@ -6,3 +6,5 @@ Add your own folder and answer these questions in a Goals.MD:
   DA Data Analyst
  1. Find an initial dataset you want to use for Capstone - Marijuana use and crime
  1. List first idea of goals for Capstone - See if marijuana legalization has any influence on overall crime
+my change at the end
+another change to see
