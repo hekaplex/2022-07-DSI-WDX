@@ -1,3 +1,3 @@
---List of all vendors and all their information
+--List of all invoice information
 Select *
-From [dbo].[Vendors]
+From [dbo].[Invoices]
