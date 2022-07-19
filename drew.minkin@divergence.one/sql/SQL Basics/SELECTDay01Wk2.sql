@@ -141,11 +141,12 @@ AND VendorID IN
 FROM Vendors
 WHERE VendorState = 'CA')
 
-SELECT 
-I.VendorID, I.InvoiceDate
+				SELECT 
+					I.VendorID
+					, I.InvoiceDate
 FROM Invoices I
-JOIN Vendors V
-ON I.VendorID = V.VendorID
-WHERE
-I.InvoiceTotal> 500
+	JOIN Vendors V
+		ON I.VendorID = V.VendorID
+			WHERE
+				I.InvoiceTotal> 500
 AND V.VendorState = 'CA'
