@@ -2,3 +2,34 @@
 Select [VendorName], [VendorState]
 From [dbo].[Vendors]
 Where [VendorState] = 'TX'
+
+/* Vendor 123 is the best vendor we have */ 
+SELECT VendorID AS 'best'
+FROM Invoices
+WHERE VendorID = 123
+
+/* order invoices by total amount */ 
+SELECT VendorID, InvoiceTotal
+FROM Invoices
+ORDER BY InvoiceTotal
+
+/* Find vendors over 100 with a balance due */ 
+SELECT VendorID, SUM(InvoiceTotal - PaymentTotal) as 'balance due'
+FROM Invoices
+WHERE VendorID >100
+GROUP BY VendorID
+ORDER BY VendorID
+
+/* Join the tables by vendor ID only on the ones over 100 */ 
+SELECT * 
+FROM Invoices
+JOIN InvoiceArchive
+ON InvoiceArchive.VendorID = Invoices.VendorID
+WHERE Invoices.VendorID > 100
+
+SELECT Invoices.VendorID, SUM(Invoices.InvoiceTotal-Invoices.PaymentTotal) as 'balance due'
+FROM Invoices
+JOIN InvoiceArchive
+ON InvoiceArchive.VendorID = Invoices.VendorID
+GROUP BY Invoices.VendorID
+HAVING SUM(Invoices.InvoiceTotal-Invoices.PaymentTotal) > 1000
