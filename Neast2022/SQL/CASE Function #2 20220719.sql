@@ -7,4 +7,4 @@ END
 AS VendorLocation
 FROM Vendors
 ORDER BY 
-VEndorZipCode
+VendorZipCode
