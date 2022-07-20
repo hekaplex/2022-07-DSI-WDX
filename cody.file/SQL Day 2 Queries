@@ -1,0 +1,26 @@
+-- Find all vendor names and corresponding cities -- 
+SELECT VendorName, VendorCity
+FROM Vendors
+ORDER BY VendorName
+
+-- Find all invoices over $100 -- 
+SELECT Invoices.InvoiceNumber, Invoices.InvoiceTotal, Invoices.PaymentTotal AS "Money Owed to Us"
+FROM Invoices
+WHERE InvoiceTotal > 100
+
+-- Find invoices under $100 -- 
+SELECT Invoices.InvoiceTotal, Invoices.PaymentTotal
+FROM Invoices
+WHERE Invoices.InvoiceTotal BETWEEN '1.00' and '100.00'
+ORDER BY InvoiceTotal
+
+-- Find all Vendors in Texas and California -- 
+SELECT Vendors.VendorID, Vendors.VendorCity, Vendors.VendorState
+FROM Vendors
+WHERE VendorState IN ('TX','CA')
+
+-- Find Vendors with an ID 1-10 -- 
+SELECT Vendors.VendorName,Vendors.VendorID,Vendors.VendorState
+FROM Vendors
+WHERE Vendors.VendorID LIKE '[1-10]'
+ORDER BY VendorID
