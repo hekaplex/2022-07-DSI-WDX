@@ -29,4 +29,15 @@ SELECT
 FROM
 	PaidInvoices
 
+/* Show paid invoices vs active invoices */
 
+SELECT 
+	InvoiceNumber
+	,InvoiceTotal
+	,CASE TermsID
+			WHEN 2 THEN '15 Days'
+			ELSE '10 Days'
+	END AS Terms
+FROM
+	ActiveInvoices
+	/* Show case statement based on the value of termsID column */
