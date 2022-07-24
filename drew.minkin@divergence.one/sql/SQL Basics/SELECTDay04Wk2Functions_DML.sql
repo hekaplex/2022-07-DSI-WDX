@@ -121,3 +121,156 @@ SELECT
 FROM
 InvoiceNTile
 GROUP BY RankinThirds
+
+SELECT @@ROWCOUNT
+
+SELECT OBJECT_ID('FakeTableName') IS NOT NULL
+	DROP TABLE FakeTableName
+
+USE Examples;
+
+SELECT *
+INTO InvoicesCopy_Drew
+FROM Invoices
+
+INSERT INTO InvoicesCopy_Drew
+([InvoiceID], [InvoiceNumber], [InvoiceTotal])
+VALUES
+	(101, 12345, 470.47)
+
+SELECT *
+FROM InvoicesCopy_Drew
+
+
+INSERT INTO InvoicesCopy_Drew
+([InvoiceID], [InvoiceNumber], [InvoiceTotal])
+VALUES
+	(102, 12345, 470.47)
+	,	(103, 12346, 480.47)
+	,	(104, 12347, 490.47)
+
+INSERT INTO InvoicesCopy_Drew
+select
+[InvoiceID], [InvoiceNumber], [InvoiceTotal]
+FROM PaidInvoices
+where ISNUMERIC([InvoiceNumber]) = 1
+
+SELECT *
+FROM InvoicesCopy_Drew
+
+alter table InvoicesCopy_Drew add INVOICEDATE DATE
+--TRANSACTIONS AND CONCURRENCY
+begin TRAN
+
+update 
+	InvoicesCopy_Drew
+set INVOICEDATE = getdate()
+
+--ROLLBACK TRAN
+commit tran
+
+--do A select with wher BEFORRE COMMITING AN update OR delete
+update 
+	InvoicesCopy_Drew
+set INVOICEDATE = dateadd(day,-7,getdate())
+where InvoiceTotal = 0
+
+
+--update invoices from paidinvoices
+
+select count(*)
+FROM
+InvoicesCopy_Drew icd
+	JOIN
+	PaidInvoices p
+	on 
+		p.InvoiceNumber
+		=
+		icd.InvoiceNumber
+where ISNUMERIC(p.[InvoiceNumber]) = 1
+
+update 
+	icd
+SET
+	INVOICEDATE = dateadd(day,-14,getdate())
+FROM
+	InvoicesCopy_Drew icd
+	JOIN
+	PaidInvoices p
+	on 
+		p.InvoiceNumber
+		=
+		icd.InvoiceNumber
+where ISNUMERIC(p.[InvoiceNumber]) = 1
+
+DELETE
+--SELECT * 
+	FROM 
+		InvoicesCopy_Drew
+	WHERE InvoiceNumber IS NULL
+
+--delete our manual inserts into table
+-- did not come from paidinvoices
+;
+with p as
+	(
+	SELECT InvoiceNumber PInvoiceNumber FROM
+	PaidInvoices
+	--where ISNUMERIC([InvoiceNumber]) = 1
+	)
+,
+icd
+as (
+SELECT cast(invoicenumber as varchar(25)) ICDinvoicenumber from InvoicesCopy_Drew 
+)
+delete
+	icd
+FROM
+	icd
+LEFT OUTER JOIN
+	 p
+	on 
+		p.PInvoiceNumber
+		=
+		icd.ICDInvoiceNumber
+Where p.PInvoiceNumber IS NULL
+
+MERGE 
+INTO 
+--a lot like ...FROM   InvoiceCopy LEFT OUTER JOIN InvoiceArchive
+InvoiceArchive ia
+USING InvoiceCopy ic
+--exactly like ...FROM InvoiceCopy LEFT OUTER JOIN InvoiceArchive
+ON ia.InvoiceNumber = ic.InvoiceNumber
+--INNER JOIN = UPDATE
+WHEN MATCHED 
+--WHERE ON ia.InvoiceID IS NOT NULL AND  ic.InvoiceID IS NOT NULL 
+	AND ic.PaymentDate IS NOT NULL
+	AND ic.PaymentTotal > ia.PaymentTotal
+	THEN 
+		UPDATE SET
+		ia.PaymentTotal = ic.PaymentTotal
+		,ia.PaymentDate = ic.PaymentDate
+		,ia.CreditTotal = ic.CreditTotal
+--LEFT OUTER JOIN WITH NULL FROM SOURCE = INSERT
+WHEN NOT MATCHED 
+--WHERE ON ia.InvoiceID IS NULL AND  ic.InvoiceID IS NOT NULL 
+	THEN
+		INSERT ([InvoiceID], [VendorID], [InvoiceNumber], [InvoiceDate], [InvoiceTotal], [PaymentTotal], [CreditTotal], [TermsID], [InvoiceDueDate])
+		VALUES(ic.[InvoiceID], ic.[VendorID], ic.[InvoiceNumber], ic.[InvoiceDate], ic.[InvoiceTotal], ic.[PaymentTotal], ic.[CreditTotal], ic.[TermsID], ic.[InvoiceDueDate])
+--RIGHT OUTER JOIN = DELETE
+WHEN NOT MATCHED BY SOURCE
+--WHERE ON ia.InvoiceID IS NOT NULL AND  ic.InvoiceID IS NULL 
+	THEN DELETE;
+
+SELECT * FROM InvoiceCopy INTERSECT SELECT * FROM InvoiceArchive
+--101 rows
+SELECT * FROM InvoiceArchive ExCEPT SELECT * FROM InvoiceCopy
+--101 rows 
+
+UPDATE InvoiceCopy SET 
+
+SELECT COUNT(*)
+FROM InvoiceArchive 
+WHERE CreditTotal = 777.77
+--117/0
