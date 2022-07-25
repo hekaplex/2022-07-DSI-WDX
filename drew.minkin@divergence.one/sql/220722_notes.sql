@@ -63,3 +63,35 @@ SELECT
 AVG(InvoiceTotal)
  from Invoices
 )
+
+
+WITH
+	KS
+		AS
+		(
+			  SELECT 
+				[InvoiceID], [VendorID], [InvoiceNumber]
+				FROM [dbo].[InvoiceArchive]
+				WHERE InvoiceID BETWEEN 3 AND 8
+				--6 rows
+		)
+SELECT 
+	V.VendorState
+	,KS.[VendorID]
+	,KS.[InvoiceNumber]
+	--base table with a table alias from CTE
+  FROM  KS
+FULL JOIN
+	[dbo].[Vendors] AS V
+	--join criteria
+	ON KS.VendorID = V. VendorID
+
+SELECT
+COUNT(*)
+FROM [dbo].[Vendors] AS V
+--122 rows
+--CROSS JOIN = 732 rows
+--INNER JOIN = 6 rows
+--LEFT JOIN = 6 rows
+--RIGHT JOIN = 126 rows
+--FULL JOIN = 126 rows
