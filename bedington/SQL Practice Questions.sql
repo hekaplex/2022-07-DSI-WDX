@@ -3,7 +3,6 @@ SELECT
 	,SalesOrderNumber
 	,OrderDate
 	,UnitPrice
-	,SalesOrderLineNumber
 	
 FROM FactInternetSales
 WHERE UnitPrice > 1000
@@ -13,7 +12,6 @@ SELECT
 	,SalesOrderNumber
 	,OrderDate
 	,UnitPrice
-	,SalesOrderLineNumber
 	
 FROM FactResellerSales
 WHERE UnitPrice > 1000
