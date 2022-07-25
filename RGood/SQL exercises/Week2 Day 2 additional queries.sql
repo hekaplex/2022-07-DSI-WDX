@@ -1,29 +1,25 @@
-USE Examples
+Select  
+-- Looking at the highest paying customers and getting their address
+	v.VendorName
+	,SUM(I.PaymentTotal) as 'Total Payments'
+	,VendorAddress1 +', '+ VendorCity+', '+ VendorState  AS Address
+From vendors V
+JOIN Invoices I
+	ON V.VendorID = I.VendorID
+	Group By v.VendorName, VendorAddress1 +', '+ VendorCity+', '+ VendorState 
+	order by [Total Payments] Desc
 
 
---unoptimizable join
-SELECT 
-	VendorName
-	, InvoiceNumber
-	, InvoiceDate
-	, InvoiceLineItemAmount AS LineItemAmount
-	, AccountDescription
-FROM 
-	Vendors
-	, Invoices
-	, InvoiceLineItems
-	, GLAccounts
---JOIN in a WHERE clause
-WHERE 
-	Vendors.VendorID = Invoices.VendorID
-  AND 
-	Invoices.InvoiceID = InvoiceLineItems.InvoiceID
-  AND 
-	InvoiceLineItems.AccountNo = GLAccounts.AccountNo
- AND 
-	InvoiceTotal - PaymentTotal - CreditTotal > 0
-ORDER BY VendorName, LineItemAmount DESC;
+Select DIstinct
+	G.AccountDescription
+	,G.AccountNo
+	,v.VendorState
+From vendors V
+Left JOIN GLAccounts G
+	ON V.DefaultAccountNo = G.AccountNo
+	ORDER BY G.AccountDescription, V.VendorState
 
+--classwork below.  looking at it for inspiration
 --better syntax
 SELECT 
 	VendorName
@@ -76,22 +72,21 @@ FULL JOIN
 		E.EmployeeID = P.EmployeeID
 	;
 --UNION
-	SELECT
-		'Active' AS [Source]
-		,InvoiceNumber
-		,InvoiceTotal
-		,TermsID
-	FROM
-		ActiveInvoices
--- AND in set theory terms
-UNION ALL
-	SELECT
-		'Paid' AS [Source]
-		,InvoiceNumber
-		,InvoiceTotal
-		,TermsID
-	FROM
-		PaidInvoices
+SELECT
+	'Active' AS [Source]
+	,InvoiceNumber
+	,InvoiceTotal
+	,TermsID
+FROM
+	ActiveInvoices
+UNION
+SELECT
+	'Paid' AS [Source]
+	,InvoiceNumber
+	,InvoiceTotal
+	,TermsID
+FROM
+	PaidInvoices
 --UNION ALL
 SELECT
 	'Active' AS [Source]
@@ -100,8 +95,7 @@ SELECT
 	,TermsID
 FROM
 	ActiveInvoices
---DISTINCT ... AND  in set theory terms
-UNION
+UNION ALL
 SELECT
 	'Active' AS [Source]
 	,InvoiceNumber
@@ -180,3 +174,6 @@ WHERE
 	E.FirstName IS NOT NULL
 	AND 
 	E.LastName IS NOT NULL
+
+
+--end classwork
