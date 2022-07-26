@@ -1,0 +1,3 @@
+SELECT COUNT(FactInternetSales.SalesOrderNumber)
+FROM FactInternetSales
+WHERE UnitPrice >1000

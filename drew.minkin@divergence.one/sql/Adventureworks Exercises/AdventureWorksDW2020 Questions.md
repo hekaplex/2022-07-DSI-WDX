@@ -8,6 +8,7 @@ _[Adapted from SQLZoo](https://sqlzoo.net/wiki)_
 
 1. How many items with ListPrice more than $1000 have been sold?
     > 1.  Union Internet & reseller sales
+    
     > 1.  Filter  > 1000 on OrderlineNumber
     > 1.  Count total ordernumber+orderlinenumber
 
