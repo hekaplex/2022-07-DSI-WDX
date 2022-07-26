@@ -1,0 +1,17 @@
+/*
+how many items with listprice more than $1000 have been sold?
+*/
+
+select count(dbo.FactInternetSales.SalesOrderLineNumber)
+from dbo.FactInternetSales
+join dbo.FactResellerSales ON dbo.FactInternetSales.PromotionKey = FactInternetSales.PromotionKey
+where dbo.FactResellerSales.unitprice > 1000
+
+
+/*
+Give the sales territory region name with the total orders for the region over 100,000? include the subtotal plus tax plus freight
+*/
+
+select from dbo.FactInternetSales
+UNION 
+select(*) from dbo.FactResellerSales

@@ -76,21 +76,22 @@ FULL JOIN
 		E.EmployeeID = P.EmployeeID
 	;
 --UNION
-SELECT
-	'Active' AS [Source]
-	,InvoiceNumber
-	,InvoiceTotal
-	,TermsID
-FROM
-	ActiveInvoices
-UNION
-SELECT
-	'Paid' AS [Source]
-	,InvoiceNumber
-	,InvoiceTotal
-	,TermsID
-FROM
-	PaidInvoices
+	SELECT
+		'Active' AS [Source]
+		,InvoiceNumber
+		,InvoiceTotal
+		,TermsID
+	FROM
+		ActiveInvoices
+-- AND in set theory terms
+UNION ALL
+	SELECT
+		'Paid' AS [Source]
+		,InvoiceNumber
+		,InvoiceTotal
+		,TermsID
+	FROM
+		PaidInvoices
 --UNION ALL
 SELECT
 	'Active' AS [Source]
@@ -99,7 +100,8 @@ SELECT
 	,TermsID
 FROM
 	ActiveInvoices
-UNION ALL
+--DISTINCT ... AND  in set theory terms
+UNION
 SELECT
 	'Active' AS [Source]
 	,InvoiceNumber
