@@ -1,0 +1,12 @@
+/*
+How many items with ListPrice more than $1000 have been sold?
+*/
+ SELECT SalesAmount, SalesOrderNumber, SalesOrderLineNumber, OrderQuantity
+ FROM FactInternetSales
+ WHERE UnitPrice >$1000.00
+ UNION
+ SELECT SalesAmount, SalesOrderNumber, SalesOrderLineNumber, OrderQuantity
+ FROM FactResellerSales
+ WHERE UnitPrice >$1000.00
+ ORDER BY OrderQuantity 
+ /* Cant seem to get the total order Quantity!*/
