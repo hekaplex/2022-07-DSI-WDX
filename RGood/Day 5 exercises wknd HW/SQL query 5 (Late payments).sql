@@ -1,6 +1,6 @@
 SELECT
 -- Showing the vendors that have paid their bills late
-    V.VendorID
+	V.VendorName
 	,I.PaymentDate
 	,I.InvoiceDueDate
 From Vendors V
