@@ -1,0 +1,9 @@
+Select VendorName, VendorZipCode, 
+	CASE
+		When VendorZipCode like '5%' Then 'Local'
+		ELSE 'Not Local'
+	END
+	as VendorType
+FROM Vendors
+ORDER BY 
+	VendorZipCode

@@ -1,0 +1,8 @@
+SELECT 
+    V.vendorState [State]
+    ,SUM(I.InvoiceTotal)
+FROM Vendors V
+JOIN Invoices I
+    ON V.VendorID = I.VendorID 
+    GROUP BY V.vendorState
+    Having SUM(I.InvoiceTotal) > 1000
