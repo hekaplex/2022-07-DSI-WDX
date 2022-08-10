@@ -3,7 +3,7 @@ List one goal for between now and Jan 2023
 List one goal for between now and Jan 2024
 -Get enrolled in a masters program to utilized the rest of my GI bill
 Choose a role for your capstone
--What ever role is needed I have no preference
+-Data Scientist
 Find an initial dataset you want to use for Capstone
 -Still looking
 List first idea of goals for Capstone
