@@ -1,6 +1,7 @@
 1. Aug 10 - Make work plan
 1. Aug 10 - Clean Data w/SQL, build database first
 1. Aug 10 - Define Business Question that we are trying to answer
+1. Aug 11 - Make/start data dictionary
 1. Aug 11 - Build out/import necessary tables in Power Query 
 1. Aug 11 - Build preliminary visualizations
 1. Aug 12 - Refine Power Query tables to drill down
