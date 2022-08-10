@@ -12,7 +12,32 @@ Find an initial dataset you want to use for Capstone -
 List first idea of goals for Capstone - 
    Find the best days to sell items in game to maximize profits and spend less time in game farming
 
-   changes for Roy
-   
 
-This is an edit of a file.  Just testing to make sure I am working on this correctly.   After this I am going to stage changes.
+
+***********************************************  Aug 11  ***********************************************
+
+
+Choosing a career plan and adding it to goals
+
+         Flight delays can decrease customer loyalty, have financial penalties and disrupt business. Understanding contributing factors, root causes and trends can be useful to airline carriers to improve execution
+
+Minimum viable data to give AN answer to a stakeholder
+   pull 1-3 thing out that seem high runners
+      can grab smaller stuff later
+
+
+is plane age an issue?
+Why flights delayed
+   Maint?
+   Weather?
+   security?
+Regional?
+   certain airports delaying incoming? 
+   outbound?
+certain time of day?
+
+Validate if data is impactful
+
+Lagging and leading indicator
+   lagging may be maint
+   leading could be age, temperature, location
