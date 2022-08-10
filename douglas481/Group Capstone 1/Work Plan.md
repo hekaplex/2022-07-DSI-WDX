@@ -8,5 +8,5 @@
 1. Aug 12 - Refine Visualizations
 1. Aug 15 - Finish building visualizations and data refinement
 1. Aug 16 - Start building dashboard
-1. Aug 17 - Finish dashboard, Make powerpoint presentation, Practice presentation
+1. Aug 17 - Finish dashboard, Make powerpoint presentation (add the Pitch, who you are, where you want to go, something memorable about you), Practice presentation
 1. Aug 18 - Present
