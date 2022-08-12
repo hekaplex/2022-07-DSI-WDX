@@ -1,0 +1,18 @@
+let
+    Source = Sql.Databases("localhost"),
+    #"AirlinePerformance-ODS" = Source{[Name="AirlinePerformance-ODS"]}[Data],
+    dbo_FAAMaster = #"AirlinePerformance-ODS"{[Schema="dbo",Item="FAAMaster"]}[Data],
+    #"Changed Type" = Table.TransformColumnTypes(dbo_FAAMaster,{{"Airworthiness Date", type date}}),
+    #"Removed Errors" = Table.RemoveRowsWithErrors(#"Changed Type", {"Airworthiness Date"}),
+    #"Changed Type1" = Table.TransformColumnTypes(#"Removed Errors",{{"Year MFR", type number}}),
+    #"Removed Errors1" = Table.RemoveRowsWithErrors(#"Changed Type1", {"Year MFR"}),
+    #"Duplicated Column" = Table.DuplicateColumn(#"Removed Errors1", "N-Number", "N-Number - Copy"),
+    #"Renamed Columns" = Table.RenameColumns(#"Duplicated Column",{{"N-Number - Copy", "Tail Key"}}),
+    #"Added Prefix" = Table.TransformColumns(#"Renamed Columns", {{"Tail Key", each "N" & _, type text}}),
+    #"Changed Type2" = Table.TransformColumnTypes(#"Added Prefix",{{"Cert Issue Date", type date}, {"Last Activity Date", type date}}),
+    #"Inserted Suffix" = Table.AddColumn(#"Changed Type2", "Suffix", each Text.From([Year MFR], "en-US") & "0101", type text),
+    #"Renamed Columns1" = Table.RenameColumns(#"Inserted Suffix",{{"Suffix", "Date MFR"}}),
+    #"Changed Type3" = Table.TransformColumnTypes(#"Renamed Columns1",{{"Date MFR", type date}}),
+    #"Removed Errors2" = Table.RemoveRowsWithErrors(#"Changed Type3", {"Date MFR"})
+in
+    #"Removed Errors2"
