@@ -1,0 +1,46 @@
+Flight Delays
+Domain
+This data uses actual data from flight delays in the United States
+
+Business Scenario
+Flight delays can decrease customer loyalty, have financial penalties and disrupt business. Understanding contributing factors, root causes and trends can be useful to airline carriers to improve execution
+
+Specific Questions
+What are the opportunities to clean up the data?
+Are there any natural primary and foeign keys or will we need to create and maintain them?
+Are there any inconsistencies in the relationshps between the natural or surrogate keys?
+What are the measures that you will need to create to support the aggregate calculations?
+
+
+-----------------------------August 10 2022-------------------------
+*********************************questions we want to answer**************************
+************************Hypothesis of what we think the outcome will be****************
+
+
+
+         Flight delays can decrease customer loyalty, have financial penalties and disrupt business. Understanding contributing factors, root causes and trends can be useful to airline carriers to improve execution
+
+                        Minimum viable data to give AN answer to a stakeholder
+                        pull 1-3 thing out that seem high runners
+                            can grab smaller stuff later
+
+--------------Questions we think are relevant------------ 
+Is plane age an issue?
+
+Why flights delayed
+   Maint?
+   Weather?
+   security?
+Regional?
+   certain airports delaying incoming? 
+   outbound?
+certain time of day?
+
+Validate if data is impactful
+
+Lagging and leading indicator
+   lagging may be maint
+   leading could be age, temperature, location
+
+-----------------------------hypothesis statement. 
+Air traffic controlles are the driver of when planes take off and land and taxi manuvers.  Less skilled ATCs cuase a higher delay at certain airports
