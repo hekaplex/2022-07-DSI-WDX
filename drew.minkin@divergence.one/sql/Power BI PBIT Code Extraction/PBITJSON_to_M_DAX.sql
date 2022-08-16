@@ -1,9 +1,18 @@
 DECLARE @jsonisland nvarchar(max);
 DECLARE @jsonpowerbi nvarchar(max)
+/*
 
---add JSON from string or SELECT into nvarchar(max) from table
---nested JSON requires converting JSON in calccolumns to ` instead of ' character
-set @jsonpowerbi = N''
+STEPS TO GET CODE READY FOR EXPORT
+1.  Save .PBIX file as a .PBIT template
+2.  Rename the file to a .ZIP file 
+    (may require unchecking "Hide extension for known file types")
+    from the View OPtions in Fiel Explorer
+3.  Navigate to the DataModelSchema file and 
+    replace any ' characters to ` 
+4.  Copy the entire JSON from string or SELECT into nvarchar(max) from table
+5.  replace <insert_json_here> with teh JSON
+*/
+set @jsonpowerbi = N'<insert_json_here>'
 
 --get island of schema with table definitions
 SELECT @jsonisland = edgetable
