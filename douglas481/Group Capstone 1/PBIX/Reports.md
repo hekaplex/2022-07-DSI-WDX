@@ -1,0 +1,1 @@
+[Updated Visuals and Formatting - Aug 15 - Doug Lindsey](https://app.powerbi.com/groups/ecffc9ef-7cd6-4c23-863a-9a7300c47b41/reports/32a848d1-e907-4f47-8670-4f90c59905a3/ReportSection43dd9cca18e343ba659e?ctid=674d3e6c-45f7-42e9-938c-fcd01e3ff57c)
