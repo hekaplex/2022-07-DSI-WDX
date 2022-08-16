@@ -15,4 +15,4 @@ For this capstone I decided to look at a relatively simple question in the first
 
 I hypothesized that ports with heavier traffic would have a larger share of delays (dwell time). I looked at the gross tonnage of shipping going to each port and then compared these numbers to the total dwell time at each port (for the data set given) and the average dwell time at each port.
 
-What I found is that the total dwell time and gross tonnage of each port are loosely correlated, however the gross tonnage and average dwell time are not correlated at all. The conclusions that can be 
+What I found is that the total dwell time and gross tonnage of each port are loosely correlated, however the gross tonnage and average dwell time are not correlated at all. The conclusions that can be drawn from these correlations are that busier ports are, in fact not slower. This means that when planning routes to be taken for auto carriers it logically makes sense to target busy ports since they have no real delays worth noting and they are invariably closer to larger markets which means that further transportation costs would be lower.
