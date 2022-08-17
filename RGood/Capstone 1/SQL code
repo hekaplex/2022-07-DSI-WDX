@@ -1,0 +1,80 @@
+
+alter table dbo.flight 
+alter column Wheels_Off int;
+alter table dbo.flight 
+alter column Wheels_On int;
+alter table dbo.flight 
+Drop column year, month;
+alter table dbo.flight 
+Drop column arr_time, dep_time, Flights; 
+
+select 
+	format(WHEELS_OFF, '0000'),
+	format(WHEELS_ON, '0000')
+
+from dbo.Flight
+
+
+
+
+
+
+
+/****** Script for SelectTopNRows command from SSMS  ******/
+select
+right(tail_num,5)
+from
+	Flight
+
+update 
+  [AirlinePerformance-ODS_Worked_Folder].[dbo].Flight
+set TAIL_NUM = right(tail_num,5)
+
+
+
+select 
+Distinct (f.TAIL_NUM)
+--count(*)
+
+from
+flight F
+left join FAAMaster M
+	on f.TAIL_NUM = m.[N-Number]
+	where m.[N-Number] is null
+
+
+
+
+select 
+Distinct (f.TAIL_NUM)
+--count(*)
+
+from
+flight F
+right join FAAMaster M
+	on f.TAIL_NUM = m.[N-Number]
+	where f.TAIL_NUM is null
+
+
+update 
+  [AirlinePerformance-ODS_Worked_Folder].[dbo].Flight
+set TAIL_NUM = ltrim(rtrim(tail_num))
+
+
+
+
+update 
+  [AirlinePerformance-ODS_Worked_Folder].[dbo].FAAMaster
+set [N-Number] = ltrim(rtrim([N-Number]))
+
+
+
+-- 460949
+
+
+select
+	[N-number]
+from
+	FAAMaster
+	order by 1
+
