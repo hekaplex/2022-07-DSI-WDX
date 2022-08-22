@@ -1,0 +1,38 @@
+Flight Delays
+
+Business Scenario
+Flight delays can decrease customer loyalty, have financial penalties and disrupt business. Understanding contributing factors, root causes and trends can be useful to airline carriers to improve execution
+
+Specific Questions asked by the capstone project
+What are the opportunities to clean up the data?
+Are there any natural primary and foeign keys or will we need to create and maintain them?
+Are there any inconsistencies in the relationshps between the natural or surrogate keys?
+What are the measures that you will need to create to support the aggregate calculations?
+
+
+-----------------------------August 11 2022-------------------------
+
+Questions to be answered:
+
+ 1. Does location of Airport (i.e. major hub, larger city contribute to more flight delays, ,higher volume of flights)?
+ 2.Is there a connection between airplane type and being able to make up time once in the air ( I.e. do lighter planes or smaller planes have an easier time making their time up in regards to speed)
+
+Hypothesis:
+
+1. Smaller airport locations will experience more delays  and while we don't have the data to back this up in this data set, i believe the contributing factor is that in smaller areas you may have less people qualified to fill in for staffing gaps. 
+Now from this data what I can say is that we will see the smaller airports in general will have more delays.
+
+2. I believe that larger planes or equipment styles will have a harder time making up time in the air and we should be able to see this common trend across certain equipment types.
+
+-------- offshoot statement made by the capstone project----------------
+
+ Flight delays can decrease customer loyalty, have financial penalties and disrupt business. Understanding contributing factors, root causes and trends can be useful to airline carriers to improve execution
+
+      **** we will not be able to tie customer loyalty, for the financial penalties aspect to this report because the data to review this type of information has not been provided****                  
+                        
+--------------Questions that are relevant------------ 
+1. How can i decode the delay codes so that I can uncover more about why planes are delayed within this data set
+
+-----------------------------hypothesis statement. 
+ I cannot make a statement at this time, I am still combing through and trying to digest the data.
+ From what I currently know I can say that the issues must be quantifiable by either location,equipment type, weather

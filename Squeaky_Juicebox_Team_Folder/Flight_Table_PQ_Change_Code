@@ -1,0 +1,23 @@
+let
+    Source = Sql.Databases("localhost"),
+    #"AirlinePerformance-ODS_Worked_Folder" = Source{[Name="AirlinePerformance-ODS_Worked_Folder"]}[Data],
+    dbo_Flight = #"AirlinePerformance-ODS_Worked_Folder"{[Schema="dbo",Item="Flight"]}[Data],
+    #"Changed Type" = Table.TransformColumnTypes(dbo_Flight,{{"WHEELS_OFF", Int64.Type}, {"WHEELS_ON", Int64.Type}}),
+    #"Added Custom" = Table.AddColumn(#"Changed Type", "Time Wheels Off", each Text.PadStart( Text.From( [WHEELS_OFF] ), 4, "0" )),
+    #"Changed Type1" = Table.TransformColumnTypes(#"Added Custom",{{"Time Wheels Off", type time}}),
+    #"Changed Type3" = Table.TransformColumnTypes(#"Changed Type1",{{"WHEELS_ON", Int64.Type}}),
+    #"Added Custom1" = Table.AddColumn(#"Changed Type3", "Time Wheels On", each Text.PadStart( Text.From( [WHEELS_ON] ), 4, "0" )),
+    #"Changed Type2" = Table.TransformColumnTypes(#"Added Custom1",{{"Time Wheels On", type time}, {"FL_DATE", type date}}),
+    #"Removed Columns" = Table.RemoveColumns(#"Changed Type2",{"YEAR", "MONTH"}),
+    #"Added Custom2" = Table.AddColumn(#"Removed Columns", "Departure Time", each Text.PadStart( Text.From( [DEP_TIME] ), 4, "0" )),
+    #"Added Custom3" = Table.AddColumn(#"Added Custom2", "Arrival Time", each Text.PadStart( Text.From( [ARR_TIME] ), 4, "0" )),
+    #"Changed Type4" = Table.TransformColumnTypes(#"Added Custom3",{{"Departure Time", type time}, {"Arrival Time", type time}}),
+    #"Removed Columns1" = Table.RemoveColumns(#"Changed Type4",{"WHEELS_OFF", "WHEELS_ON", "ARR_TIME", "DEP_TIME", "FLIGHTS"})
+in
+    #"Removed Columns1"
+
+
+
+
+
+    --Brett and Espinito will have to leave the source as you have it.

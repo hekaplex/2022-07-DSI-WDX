@@ -1,0 +1,21 @@
+Field Name,Definition,Data Type,Sensitive Information
+callID,Call ID,int,N
+lrno,Lloyd's Registery Number,int,N
+arrdate,Arrival Date,nvarchar,N
+saildate,Sail Date,date,N
+portname,Port Name,nvarchar,N
+countryname,Country Name,nvarchar,N
+priorportname,Prior Port Name,nvarchar,N
+priorcountryname,Prior Country Name,nvarchar,N
+movetype,Transitting or not,nvarchar,N
+datecreated,Date Created,nvarchar,N
+vesselname,Vessel Name,nvarchar,N
+owner,Owner,nvarchar,N
+shipmanager,Ship Manager,nvarchar,N
+operator,Operator,nvarchar,N
+flag,Which Country the shipped is registered in,nvarchar,N
+dwt,Deadweight Tonnage,int,N
+loa,Length Overall,int,N
+breadth,Breadth,int,N
+depth,Depth,int,N
+statdecode,Type of Shipping,nvarchar,N
