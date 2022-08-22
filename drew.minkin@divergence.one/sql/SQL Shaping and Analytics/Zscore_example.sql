@@ -24,6 +24,7 @@ select 32.856527347252487803/-0.522048686057590789 as ratio_min_max_zscore
 --"ideal variance" = six sigma
 
 select 32.856527347252487803 - -0.522048686057590789 as stdev_range_zscore
+-- actual is 33+ sigma
 
 SELECT COUNT(*) from FactInternetSales
 --60398
