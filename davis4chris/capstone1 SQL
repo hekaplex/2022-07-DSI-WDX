@@ -1,0 +1,167 @@
+--- dropped N from tail_num
+update Flight
+set TAIL_NUM = right(tail_num,5)
+
+-- Created table with only certain types of aircraft included
+
+select
+*
+into
+acftref_comm
+from
+ACFTREF
+where
+	[TYPE-AIRCRAFT] = 4
+or 
+[type-aircraft] = 5
+
+-- delay by type breakout tables
+
+select
+*
+into
+departure_delays
+from
+Flight
+where
+DEP_DELAY > 0
+
+select
+*
+into
+Arrival_delays
+from
+Flight
+where
+arr_delay > 0
+
+-- joins for city/ state on flight, testing map issues
+
+select
+*
+into
+flight_W_Origin
+from
+Flight
+join 
+Airport on
+Airport.Code = Flight.ORIGIN_CODE 
+
+
+
+select
+*
+into
+weather_Delay
+from
+Flight
+where 
+weather_delay > 0
+
+
+select
+*
+into
+Security_delay
+from
+Flight
+where
+security_delay > 0
+
+select
+*
+into
+Nas_delay
+from
+Flight
+where
+NAS_DELAY > 0
+
+
+
+select 
+* 
+into
+Carrier
+from
+flight
+where
+CARRIER_DELAY > 0
+
+select
+*
+into
+Late_aircraft_delay
+from
+Flight
+where
+late_aircraft_delay > 0
+
+select
+*
+into
+Carrier_delay
+from
+Flight
+where
+carrier_delay > 0
+
+select 
+*
+into
+on_time_arrival
+from
+Flight
+where
+ARR_DELAY <0
+
+select
+*
+into
+on_time_depart
+from
+Flight
+where
+DEP_DELAY <0
+
+-- joins for city/ state on flight, testing map issues
+
+select
+*
+into
+flight_W_Origin
+from
+Flight
+join 
+Airport on
+Airport.Code = Flight.ORIGIN_CODE 
+
+select
+*
+into
+Flight_w_destination
+from
+Flight
+join 
+Airport on
+airport.code = flight.dest_code
+
+----TESTING A WAY TO LINK AIRCRAFT TO MODLE
+
+SELECT
+*
+INTO
+FAA_ACFT_JOIN
+FROM
+ACFTREF_COMM
+JOIN
+FAAMaster ON
+FAAMaster.[MFR MDL Code] = ACFTREF_COMM.[MFR-MDL-Code]
+
+
+
+
+ALTER TABLE FAA_ACFT_JOIN
+DROP COLUMN
+[OTHER NAME 5], [OTHER NAME 4], [OTHER NAME 3], [OTHER NAME 2],
+[OTHER NAME 1], [KIT MFR CODE], [KIT MODEL], [STREET2], [TYPE REGISTRANT], [PROP-12], [KIT-CODE]
