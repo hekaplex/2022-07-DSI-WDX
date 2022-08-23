@@ -1,0 +1,328 @@
+[lrno],[vesselname],[owner],[shipmanager],[operator],[flag],[dwt],[loa],[breadth],[depth]
+9325439,SIERRA NEVADA HIGHWAY,Rabell Navigation Corp,Taiyo Nippon Kisen Co Ltd,Kawasaki Kisen Kaisha Ltd,PAN,"12,851.00",183,30.2,28.8
+9252228,SPLENDID ACE,Mitsui OSK Lines Ltd,Mitsui OSK Lines Ltd,Mitsui OSK Lines Ltd,JPN,"19,893.00",198,32.2,33.7
+9367607,CANOPUS LEADER,Leo PCTC Pte Ltd,United Ocean Ship Mgmt Pte Ltd,NYK Line,SNG,"17,382.00",179.9,32.2,34.8
+9237307,GALAXY LEADER,Galaxy Maritime Ltd,Ray Car Carriers Ltd,NYK Line,BAH,"17,127.00",189.2,32.26,30.46
+9237319,GLOBAL LEADER,Global Maritime Ltd-IOM,Ray Car Carriers Ltd,NYK Line,BAH,"17,006.00",189.2,32.26,30.46
+9285615,MORNING CALM,Calm Maritime Ltd,Ray Car Carriers Ltd,EUKOR Car Carriers Inc,BAH,"21,005.00",199.95,32.25,32.64
+9403217,GLORIOUS EXPRESS,Sagittarius PCTC Pte Ltd,United Ocean Ship Mgmt Pte Ltd,United Ocean Ship Mgmt Pte Ltd,SNG,"17,212.00",179.9,32.2,34.8
+9318462,HOEGH DELHI,Gram Car Carriers Holdings,Hoegh Fleet Services AS,Hoegh Autoliners AS,SNG,"16,890.00",199.9,32.26,32.44
+9403279,HYPERION LEADER,Hyperion Maritime SA,NYK Line,Hoegh Autoliners AS,PAN,"14,381.00",190.03,28.2,29.43
+9494905,LAKE FUXIAN,Fair Wind Navigation SA,Eastern Pacific Shipping Pte,CSAV,LIB,"17,245.00",199.99,32.26,34.41
+9407665,HOEGH CARIBIA,Gram Car Carriers Holdings,OSM Ship Management Pte Ltd,Hoegh Autoliners AS,SNG,"4,693.00",140,22.4,22.95
+9293521,MIRACULOUS ACE,Miraculous Shipping Ltd,Mitsui OSK Lines Ltd,Mitsui OSK Lines Ltd,CAY,"19,381.00",199.97,32.26,34.8
+9312834,MORNING CHORUS,OW Shipping Co Pte Ltd,Wallenius Marine Singapore Pte,EUKOR Car Carriers Inc,SNG,"21,276.00",199.99,32.26,32.64
+9336074,MORNING COMPOSER,LOS International SA,EUKOR Car Carriers Inc,EUKOR Car Carriers Inc,PAN,"21,052.00",199.97,32.26,32.64
+9312822,MORNING CONCERT,Wilhelmsen Lines Car Carrier,Wilhelmsen Ship Management AS,EUKOR Car Carriers Inc,GBI,"21,500.00",199.99,32.26,32.64
+9412567,TRANS LEADER,Lucretia Shipping SA,Santoku Senpaku Co Ltd,NYK Line,PAN,"15,154.00",180,30,33.52
+8907606,NEKSU,Inderton Ltd SA,Natie Shipping Co Ltd,Natie Shipping Co Ltd,MGL,974,66.22,12.6,7.35
+8508917,SALZGITTER,Pureza Ships SA,Wilhelmsen Ship Mgmt Sdn Bhd,NYK Line,PAN,"12,077.00",172.5,29.37,28.25
+8321905,PRINCE,Best Oasis Ltd,Prayati Shipping Pvt Ltd,Prayati Shipping Pvt Ltd,PAL,"15,940.00",190,32.21,30.84
+9250232,ATLANTIC HIGHWAY,Eternity Maritime Shipping SA,Fukunaga Kaiun KK,Kawasaki Kisen Kaisha Ltd,PAN,"17,232.00",199.94,32.2,33.74
+9283887,SAGITTARIUS LEADER,Ocean Empire Panama SA,Excel Marine Co Ltd,NYK Line,PAN,"20,098.00",199.94,32.26,34.8
+9294355,TIANJIN HIGHWAY,Bullet Navigation SA,Taiyo Nippon Kisen Co Ltd,Kawasaki Kisen Kaisha Ltd,PAN,"15,461.00",179.99,32.2,32.21
+9676864,ARIES LEADER,Yugao Ship Holding SA,NYK Line,NYK Line,PAN,"18,808.00",199.98,35.8,38
+9432907,TOKYO CAR,Roptin Shipping Inc,Zodiac Maritime Ltd,Mitsui OSK Lines Ltd,LIB,"12,352.00",182.8,31.5,31.8
+8513510,CENTURY LEADER No. 5,Mandheling/Hachiuma/Nippon,Hachiuma Steamship Co Ltd,NYK Line,PAN,"15,539.00",199.94,32.21,21.85
+9464455,CRONUS LEADER,NST Enterprise SA,NYK Line,NYK Line,PAN,"20,096.00",199.94,32.26,34.8
+9210440,CRYSTAL RAY,Crystal Ray Shipping Ltd,Ray Car Carriers Ltd,EUKOR Car Carriers Inc,BAH,"21,400.00",199.98,32.26,32.64
+9542295,GARDENIA ACE,Holy Tiger Navigation SA,Fuyoh Shipping Co,Mitsui OSK Lines Ltd,LIB,"15,154.00",180,30,33.52
+8607749,HUDSON LEADER,Hudson River,NYK Line,NYK Line,PAN,"14,104.00",180.02,32.26,20.07
+9441609,MORNING CLASSIC,Classic Ray Ltd,Ray Car Carriers Ltd,EUKOR Car Carriers Inc,BAH,"21,000.00",199.99,32.26,35
+9177052,MOSEL ACE,Natureza Maritima SA,Wilhelmsen Ship Mgmt Sdn Bhd,Mitsui OSK Lines Ltd,PAN,"12,743.00",176.7,31.1,28
+9153549,POLARIS ACE,New Polaris SA,Kansai Steamship Co Ltd,Cido Car Carrier Service Co,PAN,"15,522.00",188,31.2,30.9
+8608157,HYUNDAI No. 106,Zodiac Maritime Ltd,Zodiac Maritime Ltd,Hyundai Glovis Co Ltd,LIB,"12,848.00",184.21,30.61,27.61
+9267912,JASPER ARROW,Jasper Maritime Ltd-IOM,Ray Car Carriers Ltd,Kawasaki Kisen Kaisha Ltd,BAH,"21,040.00",199.94,32.25,32.72
+9205976,AMERICAN HIGHWAY,Eternity Maritime Shipping SA,Taiyo Nippon Kisen Co Ltd,Kawasaki Kisen Kaisha Ltd,PAN,"16,750.00",179.15,32.2,32.29
+9158616,ASIAN CAPTAIN,EUKOR Car Carriers Inc,EUKOR Car Carriers Inc,EUKOR Car Carriers Inc,KRS,"25,765.00",228.78,32.26,32.09
+9448061,SEPANG EXPRESS,PCTC Express VII BV,Vroon BV,Vroon BV,PAN,"15,154.00",180,30,33.52
+9323780,COLORADO HIGHWAY,Colorado Highway Panama SA,Taiyo Nippon Kisen Co Ltd,Kawasaki Kisen Kaisha Ltd,PAN,"8,546.00",183,30.2,28.8
+8905165,SWARNA BAHTERA,Jembatan Nusantara PT,Jembatan Nusantara PT,Jembatan Nusantara PT,IDA,"2,181.00",93.6,16,5.94
+9114165,GLOVIS PHOENIX,Hyundai Glovis Co Ltd,Haeyoung Maritime Serv Co Ltd,Hyundai Glovis Co Ltd,KRS,"13,292.00",184.7,30.6,19.32
+9326079,TRANS FUTURE 5,Feng Li Maritime Corp,Toyofuji Shipping Co Ltd,Toyofuji Shipping Co Ltd,PAN,"14,906.00",199.99,32.26,36.21
+9701140,GOODWOOD,Fair Wind Navigation SA,Zodiac Maritime Ltd,Zodiac Maritime Ltd,LIB,"18,770.00",199.97,32.26,34.8
+8913514,JINSEI MARU,NYK Line,Hachiuma Steamship Co Ltd,NYK Line,JPN,"17,435.00",198.6,32.2,14.3
+9213818,VEGA LEADER,Aires del Mar Compania SA,Far-East Transport Co Ltd,NYK Line,PAN,"16,396.00",180,32.26,34.6
+7917551,MADAME BUTTERFLY,Parsifal Shipping Pte Ltd,Wallenius Marine Singapore Pte,Wallenius Wilhelmsen Logistics,SNG,"28,223.00",198.13,32.25,31.2
+8517944,H 103,Avanti Services Corp,Avanti Services Corp,Avanti Services Corp,SKN,"12,893.00",184.03,30.61,14.2
+9427952,PAGNA,Pagna GmbH & Co KG,Laeisz F Schiffahrts mbH & Co,Laeisz F Schiffahrts mbH & Co,GIB,"11,315.00",182.9,31.5,31.8
+8016548,MORNING CEDAR,EUKOR Car Carriers Inc,EUKOR Car Carriers Inc,EUKOR Car Carriers Inc,KRS,"28,100.00",198,32.25,31.2
+9209518,MERIDIAN ACE,Mitsui OSK Lines Ltd,Mitsui OSK Lines Ltd,Mitsui OSK Lines Ltd,JPN,"20,144.00",199.94,32.2,33.74
+9663300,MORNING CHANT,2609 International SA,EUKOR Car Carriers Inc,EUKOR Car Carriers Inc,MAI,"20,190.00",199.98,32.26,32.64
+9083988,MISAKI,Kyodogumi Kaiun,Kyodogumi Kaiun,Kyodogumi Kaiun,JPN,"1,418.00",89.5,13.5,8.08
+9283875,PHOENIX LEADER,Kotobuki/Kotobuki Shipping,NYK Line,NYK Line,PAN,"20,146.00",199.94,32.26,34.8
+9514987,VIKING EMERALD,Gram Car Carriers Holdings,OSM Ship Management Pte Ltd,Gram & Co AS,SNG,"12,500.00",167.25,28,30.09
+9391593,CSCC EUROPE,Europe Shipping Ltd,Ray Car Carriers Ltd,China Shipping Car Carrier Inc,BAH,"21,300.00",199.9,32.26,32.64
+9519145,MORNING CORNELIA,Pedregal Maritime SA,Shoei Kisen Kaisha Ltd,EUKOR Car Carriers Inc,PAN,"22,746.00",199.94,32.26,34.8
+9420045,HOEGH ST. PETERSBURG,Pioneer Leasing Ltd,Hoegh Fleet Services AS,Hoegh Autoliners AS,NIS,"27,352.00",228.78,32.26,32.59
+9477919,MORNING CAMILLA,La Darien Navegacion SA,Shoei Kisen Kaisha Ltd,EUKOR Car Carriers Inc,PAN,"22,692.00",199.94,32.26,34.8
+9675585,MORNING CHERRY,Shoei Kisen/Paraiso Shipping,Shoei Kisen Kaisha Ltd,EUKOR Car Carriers Inc,PAN,"18,556.00",199.97,32.26,34.8
+9539236,EMERALD ACE,White Bear Maritime Ltd,Mitsui OSK Lines Ltd,Mitsui OSK Lines Ltd,MAI,"18,334.00",199.99,32.26,34.52
+9372810,POLARIS LEADER,Virgo PCTC Pte Ltd,United Ocean Ship Mgmt Pte Ltd,NYK Line,SNG,"17,406.00",179.9,32.2,34.8
+9515474,IRIS ACE,Hilary Navigation SA,Mitsui OSK Lines Ltd,Mitsui OSK Lines Ltd,CAY,"14,349.00",187.53,28.2,19.1
+8909123,SERASI I,Toyofuji Serasi Indonesia,Toyofuji Serasi Indonesia,Toyofuji Serasi Indonesia,IDA,"2,457.00",107.14,18.3,6.4
+9233167,JEAN ANNE,Pasha Hawaii Transport Lines,Pasha Group,Pasha Group,USA,"12,561.00",176,31.04,28
+9077836,TOPAZ ACE,Back-Boned Maritime,Cido Shipping HK Co Ltd,Cido Car Carrier Service Co,PAN,"14,696.00",179.9,32.23,14.4
+9153783,HOEGH PUSAN,Hoegh Autoliners Shpg Pte Ltd,Hoegh Autoliners AS,Hoegh Autoliners AS,SNG,"13,695.00",179.48,32.2,29.6
+9515008,VIKING SEA,Gram Car Carriers Holdings,Gram & Co AS,Mitsui OSK Lines Ltd,SNG,"10,600.00",167.25,28,30.09
+9442627,CHANG FA LONG,CSC RoRo Logistics Co Ltd,CSC RoRo Logistics Co Ltd,CSC RoRo Logistics Co Ltd,CHR,"6,561.00",140.5,24.4,9.92
+9250220,MEDITERRANEAN HIGHWAY,Braveza Maritima SA,Wilhelmsen Ship Mgmt Sdn Bhd,Kawasaki Kisen Kaisha Ltd,PAN,"17,228.00",199.94,32.2,33.74
+9554200,PRECIOUS ACE,Fornax Line Shipping SA,Mitsui OSK Lines Ltd,Nissan Motor Car Carrier,CAY,"19,045.00",199.97,32.26,34.8
+9441594,GLOVIS CARAVEL,Caravel Maritime Ltd,Ray Car Carriers Ltd,Hyundai Glovis Co Ltd,BAH,"20,434.00",199.99,32.26,35
+9531739,ATLAS LEADER,Kialoa Leasing/FI Kiwi Leasing,NYK Line,NYK Line,JPN,"21,323.00",199.94,32.26,34.26
+9188790,VIKING CHANCE,Maple Navigation SA,OSM Ship Management Pte Ltd,UECC,SNG,"10,834.00",164,28,29.25
+9668491,NEPTUNE GALENE,Aristotle Navigation Co Ltd,Neptune Lines Shipping,Neptune Lines Shipping,GRC,"11,260.00",169.55,28,30.56
+9291133,CETUS LEADER,Zuijin Shipholding,NYK Line,NYK Line,PAN,"21,447.00",199.94,32.26,34.8
+8319718,CENTURY HIGHWAY NO. 2,Canopus Maritime Co Ltd,Taiyo Nippon Kisen Co Ltd,Kawasaki Kisen Kaisha Ltd,PAN,"15,509.00",185.75,32.01,14.38
+8517279,GLOBAL SPIRIT,World Car Carriers Inc,Nissan Motor Car Carrier,Hoegh Autoliners AS,LIB,"16,493.00",190.53,32.26,13.29
+9272890,TEXAS HIGHWAY,Kawasaki Kisen/Taiyo Nippon,Taiyo Nippon Kisen Co Ltd,Kawasaki Kisen Kaisha Ltd,JPN,"17,481.00",199.94,32.2,33.74
+9519121,TRITON ACE,Arena Shipping SA,Mitsui OSK Lines Ltd,Mitsui OSK Lines Ltd,PAN,"22,723.00",199.94,32.26,34.8
+9377523,TIRRANNA,Wilhelmsen Lines Shipowning,Wilhelmsen Ship Management AS,Wallenius Wilhelmsen Logistics,NIS,"29,936.00",231.6,32.26,34.7
+9166895,YU HENG XIAN FENG,NYKCOS Car Carrier Co Ltd,NYKCOS Car Carrier Co Ltd,NYKCOS Car Carrier Co Ltd,CHR,"13,418.00",180,32.26,34.5
+9481075,VIKING DIAMOND,Gram Car Carriers Holdings,OSM Ship Management Pte Ltd,Kawasaki Kisen Kaisha Ltd,SNG,"12,572.00",167.24,28,30.09
+9335953,APHRODITE LEADER,Springwind Navigation SA,NYK Line,NYK Line,PAN,"21,443.00",199.94,32.26,34.8
+9294367,GUANGZHOU HIGHWAY,Sapphire Sea Carriers SA,Kawasaki Kisen Kaisha Ltd,Kawasaki Kisen Kaisha Ltd,PAN,"15,301.00",179.99,32.2,32.21
+9663295,MORNING CAPO,2608 International SA,EUKOR Car Carriers Inc,EUKOR Car Carriers Inc,MAI,"20,139.00",199.98,32.26,32.64
+9336086,MORNING CAROL,S293 International SA,EUKOR Car Carriers Inc,EUKOR Car Carriers Inc,PAN,"21,044.00",199.97,32.26,32.64
+9203588,ASIAN DYNASTY,EUKOR Car Carriers Inc,Haeyoung Maritime Serv Co Ltd,EUKOR Car Carriers Inc,KRS,"21,224.00",199.95,32.26,32.09
+8912663,IDM SYMEX,Rptd Sold Undisclosed Interest,Rptd Sold Undisclosed Interest,Rptd Sold Undisclosed Interest,SKN,"12,763.00",183.93,30.64,30.23
+9073701,SHOHJIN,Frazer Shipholding SA,NYK Line,NYK Line,PAN,"16,178.00",179.03,32.26,34.05
+9477921,DEMETER LEADER,Demeter Shipping SA,Wilhelmsen Ship Mgmt Sdn Bhd,NYK Line,PAN,"20,019.00",199.94,32.26,34.8
+9509401,JUPITER SPIRIT,Secure Shipping Co Ltd,Nissan Motor Car Carrier,Nissan Motor Car Carrier,LIB,"13,954.00",183,30.2,28.8
+9203291,ASIAN KING,NOCC Shipowning AS,EUKOR Car Carriers Inc,EUKOR Car Carriers Inc,PAN,"21,511.00",199.98,32.26,32.09
+9491886,PASSERO,Passero GmbH & Co KG,Laeisz Reederei,TB Marine-Hamburg GmbH,GEU,"12,755.00",183.29,31.49,31.8
+9325221,GRAND RUBY,TK Navigation Panama SA,Cido Shipping HK Co Ltd,Cido Car Carrier Service Co,PAN,"18,117.00",199.9,32.26,35.8
+9312470,HOEGH DETROIT,Hoegh Autoliners Shipping AS,Hoegh Fleet Services AS,Hoegh Autoliners AS,NIS,"27,100.00",228.77,32.26,32.59
+9267687,PROGRESS ACE,Bright Ocean Maritime SA,Mitsui OSK Lines Ltd,Mitsui OSK Lines Ltd,PAN,"19,512.00",199.54,32.26,33.81
+9267699,PROMINENT ACE,Aurora Car Maritime Trans SA,Mitsui OSK Lines Ltd,Mitsui OSK Lines Ltd,PAN,"19,550.00",199.54,32.26,33.81
+9338888,PROMETHEUS LEADER,Bacchus Shipping Pte Ltd,Wilhelmsen Ship Mgmt Sdn Bhd,NYK Line,SNG,"14,382.00",190.03,28.2,29.43
+8018168,TERRIER,Wilhelmsen Lines Shipowning AS,Wilhelmsen Lines Car Carrier,EUKOR Car Carriers Inc,NIS,"17,863.00",194.49,32.01,19.87
+9553115,THEMIS LEADER,FPG Shipholding Panama SA,NYK Line,NYK Line,PAN,"20,037.00",199.94,32.26,34.8
+8921793,SERA,Priyanka Shipping Ltd,Priyanka Shipping Ltd,Priyanka Shipping Ltd,CMR,"4,979.00",148.22,20.4,6.86
+9706994,GLOVIS CROWN,KSF 26 International SA,Hyundai Glovis Co Ltd,Hyundai Glovis Co Ltd,MAI,"20,019.00",199.98,32.26,32.64
+9325776,WESTERN HIGHWAY,Bulkstar Enterprise Co Ltd,Taiyo Nippon Kisen Co Ltd,Kawasaki Kisen Kaisha Ltd,PAN,"12,980.00",188.03,28.2,27.41
+9667344,FREMANTLE HIGHWAY,Luster Maritime/Higaki Sangyo,Shoei Kisen Kaisha Ltd,Kawasaki Kisen Kaisha Ltd,PAN,"18,549.00",199.97,32.26,34.8
+8605167,TANCRED,Wilhelmsen Lines Shipowning AS,Wilhelmsen Lines Car Carrier,EUKOR Car Carriers Inc,NIS,"15,577.00",190.05,32.26,13.75
+9277838,IVORY ARROW,Ivory Maritime Ltd,Ray Car Carriers Ltd,Kawasaki Kisen Kaisha Ltd,BAH,"21,300.00",199.96,32.25,32.64
+9674177,GLOVIS SUPREME,GL NV7 Shipping Inc,Hyundai Glovis Co Ltd,Hyundai Glovis Co Ltd,MAI,"20,138.00",199.97,35.4,33
+9078567,KALIMANTAN LEADER,Salam Pacific Indonesia Lines,Salam Pacific Indonesia Lines,Salam Pacific Indonesia Lines,IDA,"4,051.00",100.29,21,18.56
+9392353,MERCURY LEADER,Yamabiko Shipholding SA,NYK Line,NYK Line,PAN,"15,045.00",186.03,28.2,29.43
+9279329,GRAND DOLPHIN,Dynamic Rainbow,Cido Shipping HK Co Ltd,Hoegh Autoliners AS,PAN,"18,369.00",199.99,32.26,35.8
+8320779,LIBERTY,Fidelio LP,American Roll-on Roll-off,American Roll-on Roll-off,MAI,"27,609.00",199.02,32.26,31.53
+9460887,MORNING CLARA,Melodia Maritime Pte Ltd,EUKOR Car Carriers Inc,EUKOR Car Carriers Inc,SNG,"18,638.00",199.9,32.26,34.52
+8309581,TASCO,Wilhelmsen Lines Shipowning AS,Wilhelmsen Lines Car Carrier,Wallenius Wilhelmsen Logistics,NIS,"22,067.00",195.3,32.26,30.97
+9293624,TOLEDO,Wilhelmsen Lines Car Carrier,Wilhelmsen Lines Car Carrier,Wallenius Wilhelmsen Logistics,GBI,"19,628.00",199.99,32.26,36.02
+9285639,MORNING COURIER,Courier Shipping Ltd,Ray Car Carriers Ltd,EUKOR Car Carriers Inc,BAH,"21,053.00",199.94,32.25,32.64
+8602775,MORNING MARVEL,EUKOR Car Carriers Inc,EUKOR Car Carriers Inc,EUKOR Car Carriers Inc,KRS,"15,681.00",190.05,32.26,19.72
+9021332,NEW NADA,New Nada Shipping Co Ltd,NYK Line,NYK Line,PAN,"14,274.00",180,32.2,32.67
+8211514,GMT VENUS,JS Line SA,Doriko Ltd,Hyundai Glovis Co Ltd,PAN,"12,507.00",176,27,26.35
+9448138,VANY RICKMERS,Onchan Navigation Ltd,Rickmers Shipmanagement-SNG,Hyundai Glovis Co Ltd,MAI,"12,300.00",182.8,31.5,31.8
+9431850,HOEGH MAPUTO,Hoegh Autoliners Shipping AS,Hoegh Fleet Services AS,Hoegh Autoliners AS,NIS,"12,250.00",182.8,31.5,31.8
+9430519,NOCC ATLANTIC,NOCC Atlantic AS,Norwegian Car Carriers AS,Norwegian Car Carriers AS,NIS,"22,500.00",199.99,32.26,34.55
+9188805,MODERN PEAK,Modern Peak,Cido Shipping HK Co Ltd,Cido Car Carrier Service Co,PAN,"10,817.00",164,28,29.25
+8508826,PRICILIA,Mitra Anugrah Samudra,Mitra Anugrah Samudra,Mitra Anugrah Samudra,IDA,"3,048.00",105.11,16.62,5.95
+9454711,COSCO SHENGSHI,COSCOL HK Investment,COSCOL,Hyundai Glovis Co Ltd,PAN,"14,868.00",182.8,32.2,34.33
+9381249,CYGNUS LEADER,Pedregal Maritime SA,Shoei Kisen Kaisha Ltd,NYK Line,PAN,"20,180.00",199.94,32.26,34.8
+9326081,TRANS FUTURE 6,Feng Li/Norwich Shipping,Toyofuji Shipping Co Ltd,Toyofuji Shipping Co Ltd,PAN,"14,906.00",199.99,32.26,36.21
+9114177,GLOVIS PRIME,Hyundai Glovis Co Ltd,Haeyoung Maritime Serv Co Ltd,Hyundai Glovis Co Ltd,KRS,"13,241.00",184.7,30.6,19.32
+9505089,TULANE,Wilhelmsen Lines Shipowning,Wilhelmsen Ship Mgmt Sdn Bhd,Wallenius Wilhelmsen Logistics,MTA,"28,818.00",229.99,32.26,34.7
+9441611,MORNING COMPASS,Compass Ray Ltd,Stamco Ship Management Co Ltd,EUKOR Car Carriers Inc,BAH,"21,000.00",199.99,32.26,35
+9054119,AEGEAN LEADER,Empress Shipholding,NYK Line,NYK Line,PAN,"13,157.00",180,32.2,14.29
+9483786,ARABIAN SEA,Arabian Sea,Sunship Schiffahrtskontor KG,Sunship Schiffahrtskontor KG,ABB,"13,059.00",182.8,31.5,31.8
+9070474,ASIAN GLORY,Dayer Maritime Inc,Zodiac Maritime Ltd,Hyundai Glovis Co Ltd,GBI,"13,363.00",184.1,30.6,19.32
+9238519,CONTINENTAL HIGHWAY,Continental Highway Shipping,Taiyo Nippon Kisen Co Ltd,Kawasaki Kisen Kaisha Ltd,PAN,"17,201.00",199.94,32.28,33.74
+9051375,COUGAR ACE,MOB Cougar,Mitsui OSK Lines Ltd,Mitsui OSK Lines Ltd,SNG,"18,922.00",199.53,32.26,33.46
+9402744,NEPTUNE LEADER,Opal Sea Carriers Pte Ltd,NYK Line,NYK Line,SNG,"12,853.00",183,30.2,28.8
+9338890,PLUTO LEADER,Picer Marine SA,Shinme Kisen Sangyo KK,NYK Line,PAN,"14,342.00",190.03,28.2,29.43
+9702431,GLOVIS SPLENDOR,GL NV12 Shipping Inc,Hyundai Glovis Co Ltd,Hyundai Glovis Co Ltd,MAI,"20,056.00",199.97,35.4,33
+9427550,SPRING SKY,Dynamic Hitter Shipping SA,Cido Shipping HK Co Ltd,Cido Car Carrier Service Co,HKG,"9,301.00",165,26,17.75
+9672416,GENIUS HIGHWAY,Genius Maritime Ltd,Ray Car Carriers Ltd,Kawasaki Kisen Kaisha Ltd,BAH,"21,000.00",199.96,32.26,35
+9702417,GLOVIS SUMMIT,GL NV10 Shipping Inc,Hyundai Glovis Co Ltd,Hyundai Glovis Co Ltd,MAI,"20,056.00",199.97,35.4,33
+9395628,VICTORY LEADER,Victory Ray Ltd,Ray Car Carriers Ltd,NYK Line,BAH,"13,363.00",189.3,32.26,33.54
+9673379,HOEGH JACKSONVILLE,LH Shiplease 1 AS,Hoegh Autoliners AS,Hoegh Autoliners AS,NIS,"20,578.00",199.9,32.26,32.59
+9700201,ASAKA,Japan Railway/Hyuga Kaiun,Hyuga Kaiun YK,Hyuga Kaiun YK,JPN,"2,325.00",118.03,16.6,11.99
+9702405,GLOVIS SUNRISE,GL NV9 Shipping Inc,Haeyoung Maritime Serv Co Ltd,Hyundai Glovis Co Ltd,MAI,"20,056.00",199.97,35.4,33
+9329461,MORNING CELLO,Tailwind Car Carriers Pte Ltd,EUKOR Car Carriers Inc,EUKOR Car Carriers Inc,SNG,"21,059.00",199.98,32.26,32.64
+9674189,GLOVIS SUPERIOR,GL NV8 Shipping Inc,Hyundai Glovis Co Ltd,Hyundai Glovis Co Ltd,MAI,"20,138.00",199.97,35.4,33
+9391579,SERENITY ACE,Serenity Maritime Ltd,Ray Car Carriers Ltd,Mitsui OSK Lines Ltd,BAH,"21,004.00",199.98,32.26,32.26
+9293571,EMINENT ACE,Mitsui OSK Lines Ltd,MOLSHIP,Mitsui OSK Lines Ltd,JPN,"18,947.00",199.95,32.2,34.2
+9181479,GRAND QUEST,Dynamic Active Marine,Cido Shipping HK Co Ltd,Cido Car Carrier Service Co,PAN,"16,702.00",179.16,32.26,34.05
+9690523,HARVEST LEADER,Harvest Maritime Ltd,Ray Shipping Ltd,NYK Line,BAH,"20,941.00",199.97,35.4,36.25
+9427562,SPRING WIND,Dynamic Boxer Shipping SA,Cido Shipping HK Co Ltd,Eastern Car Liner Ltd,HKG,"9,274.00",165.03,26,17.75
+9441623,HOEGH ANTWERP,Antwerp Maritime Ltd,Stamco Ship Management Co Ltd,Hoegh Autoliners AS,BAH,"21,000.00",199.96,32.26,35
+8513560,JK TAI SHAN,Taishan Shipping SA,JK Maritime Inc,JK Maritime Inc,PAN,"15,577.00",190.05,32.26,13.75
+8822117,MM SEJATI,Nusantara Sejati,Nusantara Sejati,Nusantara Sejati,IDA,"3,559.00",120,20,13.95
+7903093,HOEGH TROPICANA,Hoegh Autoliners Shipping AS,Hoegh Fleet Services AS,Hoegh Autoliners AS,NIS,"12,003.00",180.02,29.21,26.83
+8017671,KIRANA,Dharma Lautan Utama PT,Dharma Lautan Utama PT,Dharma Lautan Utama PT,IDA,"3,161.00",105.78,16.62,5.92
+9713882,LAKE GENEVA,Imabari Senpaku/IMA Lines,Eastern Pacific Shipping Pte,Eastern Pacific Shipping Pte,LIB,"18,770.00",199.97,32.26,34.8
+7917563,MORNING SPRUCE,EUKOR Car Carriers Inc,EUKOR Car Carriers Inc,EUKOR Car Carriers Inc,KRS,"28,210.00",198,32.25,31.2
+9514999,VIKING OCEAN,Gram Car Carriers Holdings,OSM Ship Management Pte Ltd,Gram & Co AS,SNG,"12,500.00",167.25,28,30.09
+9702443,THERMOPYLAE,Wilhelmsen Lines Shipowning,Wilhelmsen Ship Management AS,Wallenius Wilhelmsen Logistics,MTA,"23,786.00",199.97,36.5,38.25
+9650743,METIS LEADER,Cypress Maritime/Koyo Shosen,Shoei Kisen Kaisha Ltd,NYK Line,PAN,"19,013.00",199.97,32.26,34.8
+9285627,MORNING CHAMPION,Champion Maritime Ltd,Ray Car Carriers Ltd,EUKOR Car Carriers Inc,BAH,"21,106.00",199.92,32.25,32.64
+8701325,SERASI II,Toyofuji Serasi Indonesia,Toyofuji Serasi Indonesia,Toyofuji Serasi Indonesia,IDA,"2,538.00",108.01,18.41,6.02
+8321333,TRISTAN,Wallenius Lines AB,Wallenius Marine AB,Wallenius Wilhelmsen Logistics,SWD,"28,070.00",198,32.25,31.2
+9674165,GLOVIS SPIRIT,GL NV6 Shipping Inc,Haeyoung Maritime Serv Co Ltd,Hyundai Glovis Co Ltd,MAI,"20,138.00",199.97,35.4,33
+9078842,ARCADIA HIGHWAY,Arcadia Highway Shipping SA,Kawasaki Kisen Kaisha Ltd,Kawasaki Kisen Kaisha Ltd,PAN,"15,507.00",179.99,32.2,32
+9339844,GRAND PEARL,Dynamic Climber Shipping SA,Cido Shipping HK Co Ltd,EUKOR Car Carriers Inc,PAN,"18,090.00",199.9,32.26,35.8
+9284740,CENTAURUS LEADER,SSC Centaurus Leader Pte Ltd,SSC Ship Management Pte Ltd,NYK Line,SNG,"21,471.00",199.94,32.26,34.8
+9382102,CHANG TAI HONG,Chang Tai Hong RoRo Shpg Ltd,CSC RoRo Logistics Co Ltd,CSC RoRo Logistics Co Ltd,HKG,"12,282.00",175.86,31.1,30
+8520680,TRIANON,Wilhelmsen Lines Shipowning AS,Wilhelmsen Lines Car Carrier,Wallenius Wilhelmsen Logistics,NIS,"15,536.00",190,32.23,13.92
+9181376,GREEN DALE,LCI Shipholdings Inc,LCI Shipholdings Inc,LCI Shipholdings Inc,MAI,"15,894.00",179.03,32.26,34.05
+8514083,PYXIS,Feng Li Maritime Corp,Toyofuji Shipping Co Ltd,Toyofuji Shipping Co Ltd,PAN,"19,108.00",199,32.21,12.04
+9491874,PASSAMA,Passama GmbH & Co KG,Laeisz Reederei,Laeisz Reederei,GIB,"12,806.00",182.8,31.49,31.8
+9441556,HERITAGE LEADER,Heritage Maritime Ltd,Ray Car Carriers Ltd,NYK Line,BAH,"20,434.00",199.95,32.26,35
+9233246,SUNBELT SPIRIT,Great American Lines,Fairfield-Maxwell Services Ltd,Fairfield-Maxwell Services Ltd,MAI,"17,950.00",212.08,32.26,33.95
+9136967,VIKING PRINCESS,Gram Car Carriers Holdings,OSM Ship Management Pte Ltd,Gram & Co AS,SNG,"3,995.00",117,20,6.15
+9542283,AZALEA ACE,Glory Tiger Navigation SA,Seiwa Navigation Corp Ltd,Mitsui OSK Lines Ltd,LIB,"15,154.00",180,30,33.52
+9243473,CARIBBEAN HIGHWAY,Belocean Shipping SA,Taiyo Nippon Kisen Co Ltd,Kawasaki Kisen Kaisha Ltd,PAN,"17,866.00",179.48,32.2,32.29
+9182356,COMET ACE,Bright Ocean Maritime SA,Mitsui OSK Lines Ltd,Mitsui OSK Lines Ltd,PAN,"14,283.00",174.98,29.2,28.6
+9363948,LAVENDER ACE,Primavera Montana SA,Shunzan Kaiun KK,Shunzan Kaiun KK,PAN,"17,262.00",199.99,32.26,34.26
+9293650,LIBERTY ACE,Aurora Car Maritime Trans SA,Mitsui OSK Lines Ltd,Mitsui OSK Lines Ltd,PAN,"19,106.00",199.99,32.26,34.52
+9672404,GRAVITY HIGHWAY,Gravity Maritime Ltd,Ray Car Carriers Ltd,Kawasaki Kisen Kaisha Ltd,BAH,"21,000.00",199.95,32.26,35
+9336062,MORNING CELESTA,S291 International SA,EUKOR Car Carriers Inc,EUKOR Car Carriers Inc,PAN,"21,055.00",199.98,32.26,32.64
+9669029,MORNING POST,2610 International SA,EUKOR Car Carriers Inc,EUKOR Car Carriers Inc,MAI,"22,675.00",199.9,35.4,35.49
+9267924,ONYX ARROW,Onyx Maritime Ltd,Ray Car Carriers Ltd,Kawasaki Kisen Kaisha Ltd,BAH,"21,087.00",199.93,32.24,32.73
+8808082,PARANI BARITO,K Line Indonesia,K Line Indonesia,K Line Indonesia,IDA,"4,912.00",134.86,20,8.92
+9325427,ROCKIES HIGHWAY,Eternity Maritime Shipping SA,Fukunaga Kaiun KK,Kawasaki Kisen Kaisha Ltd,PAN,"12,828.00",183,30.2,28.8
+8606056,GMT ASTRO,POS Line SA,Doriko Ltd,Doriko Ltd,PAN,"16,141.00",190.51,32.26,13.35
+9294343,SHANGHAI HIGHWAY,Belocean Shipping SA,Taiyo Nippon Kisen Co Ltd,Kawasaki Kisen Kaisha Ltd,PAN,"15,413.00",179.99,32.2,32.21
+9476757,RUBY ACE,FGL Maritime Panama SA,Mitsui OSK Lines Ltd,Mitsui OSK Lines Ltd,CAY,"18,724.00",199.99,32.26,34.52
+9338723,MORNING CAROLINE,La Darien Navegacion SA,EUKOR Car Carriers Inc,EUKOR Car Carriers Inc,PAN,"22,717.00",199.94,32.26,34.8
+9177430,PERSEUS LEADER,Cypress Maritime Panama SA,Shoei Kisen Kaisha Ltd,NYK Line,PAN,"21,503.00",199.9,32.2,34.52
+9355214,RHEA LEADER,FC Lead Leasing Ltd,NYK Line,NYK Line,JPN,"21,428.00",199.94,32.26,34.8
+9355202,ARTEMIS LEADER,Freesia Shipholding SA,NYK Line,NYK Line,PAN,"21,424.00",199.94,32.26,34.8
+9498597,SELENE LEADER,Granville Shipholding SA,Hachiuma Steamship Co Ltd,NYK Line,JPN,"18,082.00",199.99,32.26,35.8
+9544918,CATTLEYA ACE,White Bear Maritime Ltd,Mitsui OSK Lines Ltd,Mitsui OSK Lines Ltd,CAY,"16,384.00",199.99,32.26,34.26
+9336050,MORNING CONDUCTOR,EKC International SA,EUKOR Car Carriers Inc,EUKOR Car Carriers Inc,PAN,"21,091.00",199.98,32.26,32.64
+8708907,MORNING MELODY,JEK Navigation Panama SA,Excel Marine Co Ltd,EUKOR Car Carriers Inc,PAN,"13,162.00",180,32.21,32.42
+9289908,MORNING MIRACLE,Lombard Corporate December 3,Eastern Pacific Shipping UK,EUKOR Car Carriers Inc,LIB,"12,600.00",182.8,31.5,31.8
+9325178,CSAV RIO AYSEN,Lombard Corporate December 3,Eastern Pacific Shipping UK,CSAV,LIB,"12,322.00",182.8,31.5,31.8
+9502427,SENTOSA LEADER,Ocean Sentosa,United Ocean Ship Mgmt Pte Ltd,NYK Line,SNG,"17,143.00",179.9,32.2,34.8
+9311866,TAIPAN,Taipan Maritime Ltd,Ray Car Carriers Ltd,EUKOR Car Carriers Inc,BAH,"21,021.00",199.9,32.26,32.73
+9039573,SERASI V,Toyofuji Serasi Indonesia,Toyofuji Serasi Indonesia,Toyofuji Serasi Indonesia,IDA,"3,624.00",128.92,20,6.38
+9561954,DIONE LEADER,Nadeshiko Ship Holding SA,NYK Line,NYK Line,PAN,"21,111.00",199.95,32.26,34.41
+9308807,CSAV RIO GRANDE,Lombard Corporate December 3,Zodiac Maritime Ltd,CSAV,LIB,"12,315.00",182.8,31.5,31.8
+8506749,DR ACE,Dr Line SA,Doriko Ltd,Doriko Ltd,PAN,"15,546.00",190.05,32.26,13.75
+9326093,TRANS FUTURE 7,Norwich Shipping Corp,Toyofuji Shipping Co Ltd,Toyofuji Shipping Co Ltd,LIB,"14,906.00",199.99,32.26,36.21
+9481051,VIKING CORAL,Gram Car Carriers Holdings,OSM Ship Management Pte Ltd,Kawasaki Kisen Kaisha Ltd,SNG,"12,588.00",167.23,28,30.09
+9206011,EUROPEAN HIGHWAY,Canopus Maritime Co Ltd,Taiyo Nippon Kisen Co Ltd,Kawasaki Kisen Kaisha Ltd,PAN,"15,075.00",179.99,32.2,32.2
+9303223,GRAND DIAMOND,Ocean Transit Carrier SA,Cido Shipping HK Co Ltd,EUKOR Car Carriers Inc,PAN,"18,058.00",199.9,32.26,35.8
+9660798,HOEGH AMSTERDAM,Amsterdam Maritime Ltd,Stamco Ship Management Co Ltd,Hoegh Autoliners AS,BAH,"21,000.00",199.96,32.26,35
+9382396,HOEGH OSLO,Hoegh Autoliners Shipping AS,Hoegh Fleet Services AS,Hoegh Autoliners AS,NIS,"17,252.00",179.9,32.2,34.8
+9277826,AMBER ARROW,Amber Maritime Ltd,Ray Car Carriers Ltd,Kawasaki Kisen Kaisha Ltd,BAH,"21,120.00",199.91,32.25,32.64
+9171280,HOEGH TRADER,Hoegh Autoliners Shipping AS,Hoegh Fleet Services AS,Hoegh Autoliners AS,NIS,"27,100.00",228.77,32.26,32.59
+9531741,ASTERIA LEADER,Perses Maritima Ltd,Hachiuma Steamship Co Ltd,NYK Line,JPN,"21,349.00",199.94,32.26,34.26
+9536818,GAIA LEADER,FGL Shipping Pte Ltd,NYK Line,NYK Line,SNG,"21,286.00",199.94,32.26,34.41
+9397999,AMETHYST ACE,Polar Express SA,Mitsui OSK Lines Ltd,Mitsui OSK Lines Ltd,CAY,"18,760.00",199.99,32.26,34.52
+9427940,PAGLIA,Paglia GmbH & Co KG,Laeisz Reederei,Laeisz Reederei,GIB,"11,369.00",182.91,31.5,31.8
+9273909,ANDROMEDA LEADER,ANZ Bank New Zealand Ltd,NYK Line,NYK Line,PAN,"21,443.00",199.94,32.26,34.8
+9610444,PRIME ACE,Prime Maritime SA,Mitsui OSK Lines Ltd,Mitsui OSK Lines Ltd,PAN,"18,304.00",199.95,32.2,34.2
+8905426,HEIJIN,Trident Shipholding SA-Panama,NYK Line,NYK Line,PAN,"14,366.00",180,32.2,32.67
+9454723,COSCO TENGFEI,COSCOL HK Investment,COSCOL,COSCOL,PAN,"14,707.00",182.8,32.2,34.33
+8613188,STRAITS VOYAGER,Straits Auto Logistics Sdn Bhd,Wilhelmsen Ship Mgmt Sdn Bhd,NYK Line,MAL,"13,491.00",182,30.01,29.35
+8204951,TAMPA,Rptd Sold Undisclosed Interest,Rptd Sold Undisclosed Interest,Rptd Sold Undisclosed Interest,NIS,"44,013.00",262.01,32.26,21.01
+9229403,NEW CENTURY 2,Norwich Shipping Corp,Toyofuji Shipping Co Ltd,Toyofuji Shipping Co Ltd,LIB,"16,837.00",199.99,32.26,34.52
+9318474,HOEGH BANGKOK,Hoegh Autoliners Shipping AS,Hoegh Fleet Services AS,Hoegh Autoliners AS,NIS,"16,632.00",199.9,32.26,32.44
+9368900,HOEGH SYDNEY,Chijin Shipping SA,Union Marine Mgmt Serv Pte Ltd,Hoegh Autoliners AS,PAN,"17,311.00",179.9,32.2,34.8
+8505355,OCEAN TANGO,Duwon Shipping Co Ltd,Duwon Shipping Co Ltd,Duwon Shipping Co Ltd,KRS,"2,736.00",82.12,16.01,9.2
+9166704,HOEGH MASAN,Hoegh Autoliners Shpg Pte Ltd,Hoegh Autoliners AS,Hoegh Autoliners AS,SNG,"12,490.00",179.48,32.2,29.6
+9285641,MORNING CROWN,Crown Maritime Ltd,Ray Car Carriers Ltd,EUKOR Car Carriers Inc,BAH,"21,052.00",199.94,32.26,32.64
+8508905,INNOVATOR,Carim Maritime SA,Yokohama Marine & Merchant,Yokohama Marine & Merchant,PAN,"12,084.00",172.5,29.4,28.25
+9021423,JINGU,Mandheling/Nippon/Mitsubishi,NYK Line,NYK Line,PAN,"17,216.00",195.5,28.8,29.9
+9340776,POSITIVE LEADER,Oceanic Trader SA,Janfield Shipping Ltd,NYK Line,PAN,"15,023.00",180,30,33.52
+9702429,GLOVIS SYMPHONY,GL NV11 Shipping Inc,Hyundai Glovis Co Ltd,Hyundai Glovis Co Ltd,MAI,"20,056.00",199.97,35.4,33
+8313324,SINGA,Urizen Shipping Ltd,Urizen Shipping Ltd,Urizen Shipping Ltd,TLU,"18,293.00",198.8,28.8,13
+9383429,MORNING LYNN,S331 International SA,EUKOR Car Carriers Inc,EUKOR Car Carriers Inc,PAN,"28,092.00",232.37,32.26,32.64
+8608169,HYUNDAI NO. 107,Halat Navigation No 2 SA,Zodiac Maritime Ltd,Hyundai Glovis Co Ltd,LIB,"12,939.00",184.28,30.61,27.61
+9289910,MORNING MIDAS,Lombard Corporate December 3,Zodiac Maritime Ltd,EUKOR Car Carriers Inc,GBI,"12,249.00",182.8,31.5,31.8
+8709157,NOCC CORAL,NOCC Coral AS,Norwegian Car Carriers AS,Neptune Lines Shipping,MAI,"12,706.00",183.9,30.6,30.23
+9213806,SIRIUS LEADER,SSC Sirius Leader Pte Ltd,SSC Ship Management Pte Ltd,NYK Line,SNG,"16,451.00",180,32.26,34.6
+8708244,SOLAR WING,Wing Car Carrier SA,MOLSHIP,Mitsui OSK Lines Ltd,LIB,"13,224.00",187.03,32.21,27.82
+9427938,PAGANINO,Paganino,Laeisz Reederei,Laeisz Reederei,GEU,"11,373.00",183.01,31.5,31.8
+9338876,SALVIA ACE,Polar Express SA,Mitsui OSK Lines Ltd,Mitsui OSK Lines Ltd,CAY,"15,013.00",186.03,28.2,29.43
+9681431,MORNING PRIDE,2629 International SA,EUKOR Car Carriers Inc,EUKOR Car Carriers Inc,MAI,"22,675.00",199.9,35.4,35.49
+8204975,TAIKO,Wilhelmsen Lines Shipowning AS,Wilhelmsen Ship Management AS,Wallenius Wilhelmsen Logistics,NIS,"43,986.00",262.08,32.26,21.01
+9392341,VENUS LEADER,Encantada Maritima SA,NYK Line,NYK Line,PAN,"15,031.00",186.03,28.2,29.43
+9395630,VIOLET ACE,Violet Ray Ltd,Ray Car Carriers Ltd,Mitsui OSK Lines Ltd,BAH,"13,370.00",189.3,32.26,33.54
+9051820,CAR STAR,Atwood Shipping Inc,XT Management Ltd,Zim Integrated Shipping,LIB,"17,189.00",195.54,28.8,29.9
+9432919,OSAKA CAR,Kosted Shipping Inc,Eastern Pacific Shipping Pte,Eastern Pacific Shipping Pte,SNG,"12,321.00",182.8,31.5,31.8
+9325790,DREAM DIVA,Dynamic Spirit Shipping SA,Cido Shipping HK Co Ltd,Cido Car Carrier Service Co,PAN,"15,068.00",186,28.2,29.43
+9397987,AQUAMARINE ACE,Polar Express SA,MOLSHIP,Mitsui OSK Lines Ltd,CAY,"18,772.00",199.99,32.26,34.52
+9325764,EASTERN HIGHWAY,Bulkstar Enterprise Co Ltd,Taiyo Nippon Kisen Co Ltd,Kawasaki Kisen Kaisha Ltd,PAN,"12,991.00",188.03,28.2,27.41
+9363950,CLOVER ACE,Golden Helm Shipping Co SA,Osaka Fleet Co Ltd,Mitsui OSK Lines Ltd,LIB,"17,280.00",199.99,32.26,34.26
+9293595,EUPHONY ACE,Aurora Car Maritime Trans SA,Mitsui OSK Lines Ltd,Mitsui OSK Lines Ltd,PAN,"18,944.00",199.95,32.2,34.2
+9087764,ASIAN LEADER,Kilimanjaro Maritima SA,NYK Line,NYK Line,PAN,"7,014.00",146.6,21,15.05
+9293662,FREEDOM ACE,Aurora Car Maritime Trans SA,Mitsui OSK Lines Ltd,Mitsui OSK Lines Ltd,PAN,"19,093.00",199.99,32.26,34.52
+9676876,PISCES LEADER,Emerald Sea Carriers SA,NYK Line,NYK Line,PAN,"18,781.00",199.98,35.8,38
+9229398,NEW CENTURY 1,Feng Li Maritime Corp,Toyofuji Shipping Co Ltd,Toyofuji Shipping Co Ltd,PAN,"16,837.00",199.99,32.26,34.52
+9675573,GALVESTON HIGHWAY,Nelson Shipping Corp,Sanasia Management Inc,Kawasaki Kisen Kaisha Ltd,PAN,"18,549.00",199.97,32.26,34.8
+9210438,PLATINUM RAY,Stamco Ship Management Co Ltd,Ray Car Carriers Ltd,EUKOR Car Carriers Inc,BAH,"21,400.00",199.98,32.26,32.64
+9284738,PYXIS LEADER,Eternal Sky Marine SA,Wilhelmsen Ship Mgmt Sdn Bhd,NYK Line,PAN,"21,466.00",199.94,32.26,34.8
+9055486,RYUJIN,Sea Green Shipping SA,Kitaura Kaiun KK,Kitaura Kaiun KK,PAN,"14,080.00",180,32.2,32.67
+9505900,VENUS SPIRIT,Secure Shipping Co Ltd,Nissan Motor Car Carrier,Nissan Motor Car Carrier,LIB,"13,951.00",183,30.2,28.8
+8202367,AEGEAN BREEZE,Wallenius Lines Singapore,Wallenius Marine Singapore Pte,UECC,SNG,"12,527.00",164,28,24.35
+9158276,AQUARIUS LEADER,NYK Line,NYK Line,NYK Line,JPN,"22,815.00",199.93,32.26,34.55
+9476745,HELIOS LEADER,Ship V/VI/VII/VIII,NYK Line,NYK Line,JPN,"18,692.00",200,32.26,34.52
+8716162,SERASI III,Toyofuji Serasi Indonesia,Toyofuji Serasi Indonesia,Toyofuji Serasi Indonesia,IDA,"2,618.00",115,20,6.58
+9327748,TARIFA,Tarifa Maritime Ltd,Ray Car Carriers Ltd,EUKOR Car Carriers Inc,BAH,"21,120.00",199.95,32.25,32.73
+9590589,GLOVIS CENTURY,GL NV1 Shipping Inc,Hyundai Glovis Co Ltd,Hyundai Glovis Co Ltd,PAN,"20,895.00",199.98,32.26,32.64
+8602579,TRINIDAD,Wilhelmsen Lines Shipowning AS,Wilhelmsen Lines Car Carrier,Wallenius Wilhelmsen Logistics,NIS,"15,528.00",190,32.23,13.92
+9295842,HOEGH BERLIN,Mare Berlin Schiffahrts GmbH,Hoegh Fleet Services AS,Hoegh Autoliners AS,BAH,"27,176.00",228.74,32.26,32.59
+9185047,UNITED SPIRIT,Secure Shipping Co Ltd,Nissan Motor Car Carrier,Nissan Motor Car Carrier,LIB,"14,067.00",174.98,29.2,28.6
+9088249,HOEGH INCHON,Hoegh Autoliners Shpg Pte Ltd,Hoegh Autoliners AS,Hoegh Autoliners AS,SNG,"12,490.00",179.48,32.2,29.6
+9272888,INDIANA HIGHWAY,Kawasaki Kisen Kaisha Ltd,Taiyo Nippon Kisen Co Ltd,Kawasaki Kisen Kaisha Ltd,JPN,"17,442.00",199.94,32.2,33.74
+9610406,VICTORIOUS ACE,White Bear Maritime Ltd,Mitsui OSK Lines Ltd,Mitsui OSK Lines Ltd,PAN,"18,396.00",199.95,32.2,34.2
+9481049,VIKING AMBER,Gram Car Carriers Holdings,Gram & Co AS,Eastern Car Liner Ltd,SNG,"12,471.00",167.25,28,30.09
+8502468,CENTURY LEADER NO. 3,NYK Line,Hachiuma Steamship Co Ltd,NYK Line,JPN,"14,155.00",178.5,32.21,20.63
+9362267,LONDON HIGHWAY,ISC 1400 Shipping SA,Taiyo Nippon Kisen Co Ltd,Kawasaki Kisen Kaisha Ltd,PAN,"17,765.00",199.94,32.2,33.74
+9325180,CSAV RIO NEVADO,Lombard Corporate December 3,Zodiac Maritime Ltd,CSAV,LIB,"12,322.00",182.8,31.5,31.8
+9372315,LUNA SPIRIT,Mizuho Sangyo/Fair Wind Nav,Nissan Motor Car Carrier,Nissan Motor Car Carrier,PAN,"15,261.00",180,30,33.52
+9669031,MORNING PILOT,2611 International SA,EUKOR Car Carriers Inc,EUKOR Car Carriers Inc,MAI,"22,675.00",199.9,35.4,35.49
+9122942,GLOVIS COMET,Hyundai Glovis Co Ltd,Haeyoung Maritime Serv Co Ltd,Hyundai Glovis Co Ltd,KRS,"21,421.00",199.98,32.26,32.09
+9391581,CSCC ASIA,Asia Maritime Ltd,Ray Car Carriers Ltd,China Shipping Car Carrier Inc,BAH,"21,037.00",199.9,32.26,32.64
+9293911,FELICITY ACE,Snowscape Car Carriers SA,MOLSHIP,Mitsui OSK Lines Ltd,PAN,"17,738.00",199.99,32.26,34.41
+9056296,GEMINI LEADER,Yashi Maritima SA,Yashi Maritima SA,Yashi Maritima SA,PAN,"14,930.00",180,32.26,34.5
+9293894,FIRMAMENT ACE,Aurora Car Maritime Trans SA,MOLSHIP,Mitsui OSK Lines Ltd,BAH,"17,713.00",199.99,32.26,34.41
+9293909,GLOVIS CONDUCTOR,SFL Conductor Inc,OSM Ship Management Pte Ltd,Hyundai Glovis Co Ltd,PAN,"17,709.00",199.99,32.26,34.41
+8709119,GMT POLARIS,Link Ocean Shipping SA,Doriko Ltd,Hyundai Glovis Co Ltd,PAN,"9,694.00",174,28.01,27.36
+8705307,GOLDEN ARROW,Lychee Maritime SA,RCL Shipmanagement Pte Ltd,Meiko Marine,PAN,"7,021.00",136.66,20.01,14.05
+8511263,GOLDEN FAN,Jafett Shipping Inc,Kawasaki Kisen Kaisha Ltd,Kawasaki Kisen Kaisha Ltd,PAN,"11,241.00",162.34,26.81,23.4
+9426374,PLEIADES LEADER,Strawberry Leasing Ltd,NYK Line,NYK Line,JPN,"21,462.00",199.94,32.26,34.8
+9267663,GRAND EAGLE,Dynamic Twinkle Shipping,Cido Shipping HK Co Ltd,Cido Car Carrier Service Co,PAN,"19,048.00",199.5,32.26,35.8
+8309579,TAGUS,Wilhelmsen Lines Shipowning AS,Wilhelmsen Lines Car Carrier,Wallenius Wilhelmsen Logistics,NIS,"21,900.00",195.3,32.26,21.7
+9673381,HOEGH JEDDAH,LH Shiplease 1 AS,Hoegh Autoliners AS,Hoegh Autoliners AS,NIS,"20,407.00",199.95,32.26,32.57
+9377511,TIJUCA,Wilhelmsen Lines Shipowning,Wilhelmsen Ship Management AS,Wallenius Wilhelmsen Logistics,NIS,"30,089.00",231.6,32.26,34.7
+8016550,MEDEA,Wallenius Lines Singapore,Wallenius Marine Singapore Pte,Wallenius Wilhelmsen Logistics,SNG,"28,566.00",198,32.25,31.2
+9338694,MORNING CHARLOTTE,Los Halillos Shipping Co SA,Shoei Kisen Kaisha Ltd,EUKOR Car Carriers Inc,PAN,"22,578.00",199.94,32.26,34.8
+8709121,CITY OF BEIRUT,Byblos Maritime Ltd,Abou Merhi Lines SAL,Abou Merhi Lines SAL,PAN,"9,694.00",174,28.01,27.36
+9360568,DREAM ORCHID,Dynamic Wave Shipping SA,Cido Shipping HK Co Ltd,Cido Car Carrier Service Co,PAN,"15,097.00",186.03,28.2,29.43
+9303558,HOEGH CHIBA,Hoegh Autoliners Shipping AS,Hoegh Autoliners AS,Hoegh Autoliners AS,NIS,"19,670.00",199.1,32.2,34.1
+9070462,K. ASIAN BEAUTY,AB Maritime SA-PAN,Korea Line Corp,Hyundai Glovis Co Ltd,PAN,"13,308.00",184.7,30.6,19.32
+9381677,ORCHID ACE,Mitsui OSK Lines Ltd,MOLSHIP,Mitsui OSK Lines Ltd,JPN,"17,289.00",199.99,32.26,34.26
+9355185,PRIMROSE ACE,Polar Express SA,Mitsui OSK Lines Ltd,Mitsui OSK Lines Ltd,LIB,"17,339.00",199.99,32.26,34.26
+9451006,MEDITERRANEAN SEA,Mediterranean Sea,Sunship Schiffahrtskontor KG,Sunship Schiffahrtskontor KG,ABB,"14,774.00",182.8,31.5,31.8
+9047996,HARMONY ACE,Trident Car Transport,Wilhelmsen Ship Mgmt Sdn Bhd,Mitsui OSK Lines Ltd,PAN,"14,110.00",180,32.2,32.67
+9318503,ISTRA ACE,Istra Maritime Ltd,Ray Car Carriers Ltd,Mitsui OSK Lines Ltd,BAH,"12,200.00",176,31.1,30
+9181558,LEO LEADER,Scorpio Carriers Ltd-Liberia,Wilhelmsen Ship Mgmt Sdn Bhd,NYK Line,PAN,"22,733.00",199.9,32.26,34.55
+9367592,MORNING NINNI,Ocean PCTC Pte Ltd,United Ocean Ship Mgmt Pte Ltd,EUKOR Car Carriers Inc,SNG,"17,372.00",179.9,32.2,34.8
+9668506,NEPTUNE THALASSA,Epicurus Navigation Co Ltd,Neptune Lines Shipping,Neptune Lines Shipping,GRC,"11,262.00",169.55,28,30.56
+9491898,PATARA,Patara GmbH & Co KG,Laeisz Reederei,TB Marine-Hamburg GmbH,GEU,"12,755.00",182.93,31.49,31.8
+8204963,TEXAS,Wilhelmsen Lines Shipowning AS,Wilhelmsen Ship Management AS,Wallenius Wilhelmsen Logistics,NIS,"44,080.00",262.08,32.26,21.01
+9209506,TRIUMPH ACE,Aurora Car Maritime Trans SA,Mitsui OSK Lines Ltd,Mitsui OSK Lines Ltd,PAN,"20,131.00",199.94,32.2,33.74
+9032331,MALAYSIA STAR,HKK Jaya Sdn Bhd,HKK Jaya Sdn Bhd,Eastern Car Liner Ltd,MAL,"9,313.00",151.6,21,8.7
+8131128,NUSANTARA SEJATI,Putra Sejati,Putra Sejati,Putra Sejati,IDA,"7,200.00",131.7,19.39,11.6
+9446881,ADRIA ACE,Adria Maritime Ltd,Ray Car Carriers Ltd,Mitsui OSK Lines Ltd,BAH,"12,300.00",176,31.1,30.03
+9176606,ASIAN EMPIRE,EUKOR Car Carriers Inc,EUKOR Car Carriers Inc,EUKOR Car Carriers Inc,KRS,"25,765.00",228.8,32.26,32.09
+8507664,CITY OF MUMBAI,Sinor Lines Pte Ltd,Hoegh Autoliners AS,Hoegh Autoliners AS,SNG,"7,894.00",157.51,27.01,27.15
+9284776,GRAND PAVO,Dynamic Growth Marine SA,Cido Shipping HK Co Ltd,Cido Car Carrier Service Co,PAN,"18,376.00",199.9,32.26,35.8
+9329473,MORNING CORNET,Tailwind Car Carriers Pte Ltd,EUKOR Car Carriers Inc,EUKOR Car Carriers Inc,SNG,"20,500.00",199.98,32.26,32.64
+9445980,MORNING LADY,2053 International SA,EUKOR Car Carriers Inc,EUKOR Car Carriers Inc,PAN,"27,343.00",232.38,32.26,32.64
+9367580,MORNING MARGARETA,United PCTC Pte Ltd,United Ocean Ship Mgmt Pte Ltd,EUKOR Car Carriers Inc,SNG,"17,386.00",179.9,32.2,34.8
+9186950,STRAITS CHALLENGER,Souffle Shipholding SA,Wilhelmsen Ship Mgmt Sdn Bhd,NYK Line,MAL,"17,297.00",179.9,32.2,15.07
+9051818,PEARL ACE,Prosper World Marine Co Ltd,Masumoto Shipping Co Ltd,Mitsui OSK Lines Ltd,PAN,"15,194.00",188,31.2,30.6
+8822090,SUMATERA LEADER,NYK-SPIL Indororo PT,Salam Pacific Indonesia Lines,NYK Line Indonesia,IDA,"2,662.00",108,19.6,5.96
+9505053,TITANIA,Wilhelmsen Lines Shipowning,Wilhelmsen Ship Mgmt Sdn Bhd,Wallenius Wilhelmsen Logistics,MTA,"30,907.00",227.8,32.26,34.7
+9505065,TUGELA,Wilhelmsen Lines Shipowning,Wilhelmsen Ship Mgmt Sdn Bhd,Wallenius Wilhelmsen Logistics,MTA,"28,837.00",229.99,32.25,34.7
+9190858,VERONA,SCC Shipowning I AS,Siem Car Carriers AS,Siem Car Carriers AS,NIS,"12,778.00",176.7,31.1,28
+9476733,ZEUS LEADER,Ship I/Ship II /Ship III /Ship,NYK Container Line Ltd,NYK Line,JPN,"18,697.00",199.9,32.26,34.52
