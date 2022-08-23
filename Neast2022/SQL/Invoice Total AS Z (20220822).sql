@@ -43,7 +43,7 @@ FROM
 	)
 SELECT ROUND(zscore,0) as zscore_bin
 --Results of line 31 / 100
-, COUNT(*)/120 as [pctage]
+, COUNT(*)/1.2 as [pctage]
 from score
 GROUP BY ROUND(zscore,0) 
 ORDER BY ROUND(zscore,0) DESC
