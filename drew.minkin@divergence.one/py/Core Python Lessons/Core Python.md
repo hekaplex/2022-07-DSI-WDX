@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3b5c5e6d0ac79d6cd73984aa667e1c59e03281d9a91aca542a741a1ca321419b
-size 324
+* Python Setup
+    * Modules and pip
+* Comments
+* Variables and Data Types
+    * strings
+    * numbers
+* Input from users
+* Basic Data Structures
+    * Lists
+    * Tuples
+    * Sets
+    * Dictionaries
+* Functions and Other strictuee
+ * Pointers
+ * Comprehensions
+* Control Flow
+    * For Loop
+    * While Loop
+ * Exception Handling
+ * File I/O

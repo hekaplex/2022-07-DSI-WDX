@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a20663f9c0291fe65b202645d973b14332be55da6b46bc6c87fc85df53044743
-size 360
+#at least one input
+
+#at least one validation of input in UI or code
+counter = 0
+limit_count = int(
+                    input("please add a counter INTEGERS ONLY: ")
+                )
+#at least one calculation
+while counter < limit_count:
+    print(counter, end=" ")
+    counter += 1
+#at least one returned value
+print("Congrats!!!!!\n\nThe loop has ended.")
+
