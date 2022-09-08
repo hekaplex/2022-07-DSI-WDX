@@ -1,0 +1,17 @@
+-- View
+Create View SW_Lates
+as
+select
+FL_NUM , FL_DATE , ARR_DELAY
+from
+Flight
+where AIRLINE_ID = '19393'
+--tabel value function
+Create Function fnlates
+	(@CutOff int = 0)
+	Returns table
+Return
+ (select Airline_ID , Sum(Arr_Delay) as Total_late
+from
+Flight
+group by airline_id)
