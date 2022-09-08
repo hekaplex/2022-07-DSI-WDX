@@ -3,10 +3,17 @@ alter table dbo.flight
 alter column Wheels_Off int;
 alter table dbo.flight 
 alter column Wheels_On int;
-alter table dbo.flight 
-Drop column year, month;
-alter table dbo.flight 
-Drop column arr_time, dep_time, Flights; 
+--alter table dbo.flight 
+--Drop column year, month;
+--alter table dbo.flight 
+--Drop column Flights, Arr_Time, Dep_Time; 
+
+
+--Build a view?
+--select *
+  --into
+  --from ......
+  --or create a view
 
 select 
 	format(WHEELS_OFF, '0000'),

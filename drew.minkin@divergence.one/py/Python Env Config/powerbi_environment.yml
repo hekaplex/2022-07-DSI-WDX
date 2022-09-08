@@ -1,0 +1,17 @@
+# install using the command in the Python environment directory:
+#           conda env create --file powerbi_environment.yml --prune
+name: py_pbix_svc
+channels:
+  - javascript
+dependencies:
+  - python=3.7
+  - matplotlib=3.2.1
+  - numpy=1.*
+  - pandas=1.0.1
+  - scikit-learn=0.23
+  - scipy=1.4.1
+  - seaborn=0.10.1
+  - statsmodels=0.13.2
+
+  
+  
