@@ -1,0 +1,24 @@
+DAX Measure	cyclic auction_history	Average market value = divide('cyclic auction_history'[Total item cost (G)], 'cyclic auction_history'[Total qty items], 0)
+DAX Measure	cyclic auction_history	Total item cost (G) = SUM('cyclic auction_history'[market_value_Copper])/10000
+DAX Measure	cyclic auction_history	Total qty items = sum('cyclic auction_history'[Quantity])
+DAX Measure	cyclic auction_history	Total qty items DoD% =  IF(  ISFILTERED('cyclic auction_history'[Date]),  ERROR("Time intelligence quick measures can only be grouped or filtered by the Power BI-provided date hierarchy or primary date column."),  DIVIDE(   [Total qty items] - CALCULATE(    [Total qty items],    DATEADD('cyclic auction_history'[Date].[Date], -1, DAY)   ),   CALCULATE(    [Total qty items],    DATEADD('cyclic auction_history'[Date].[Date], -1, DAY)   )  ) )
+DAX Measure	cyclic auction_history	Total value on market = 'cyclic auction_history'[Average market value]*'cyclic auction_history'[Total qty items]
+DAX Measure	cyclic auction_history	Total value on market MoM% =  IF(  ISFILTERED('cyclic auction_history'[Date]),  ERROR("Time intelligence quick measures can only be grouped or filtered by the Power BI-provided date hierarchy or primary date column."),  DIVIDE(   [Total value on market] - CALCULATE(    [Total value on market],    DATEADD('cyclic auction_history'[Date].[Date], -1, MONTH)   ),   CALCULATE(    [Total value on market],    DATEADD('cyclic auction_history'[Date].[Date], -1, MONTH)   )  ) )
+M Query	cyclic auction_history	let     Source = Sql.Databases("localhost"),     WoW_AH_Data = Source{[Name="WoW_AH_Data"]}[Data],     cyclic_auction_history = WoW_AH_Data{[Schema="cyclic",Item="auction_history"]}[Data],     #"Renamed Columns" = Table.RenameColumns(cyclic_auction_history,{{"market_value", "market_value_Copper"}}),     #"Changed Type" = Table.TransformColumnTypes(#"Renamed Columns",{{"scan_time", type datetime}, {"quantity", Int64.Type}}),     #"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"scan_ts"}),     #"Added Custom" = Table.AddColumn(#"Removed Columns", "Min vs avg mkt value", each [market_value_Copper]-[min_buyout]),     #"Filtered Rows" = Table.SelectRows(#"Added Custom", each [scan_time] > #datetime(2022, 2, 4, 0, 0, 0)),     #"Renamed Columns1" = Table.RenameColumns(#"Filtered Rows",{{"scan_time", "Date"}, {"quantity", "Quantity"}}) in     #"Renamed Columns1"
+M Query	cyclic items	let     Source = Sql.Databases("localhost"),     WoW_AH_Data = Source{[Name="WoW_AH_Data"]}[Data],     cyclic_items = WoW_AH_Data{[Schema="cyclic",Item="items"]}[Data] in     cyclic_items
+DAX Table	DateTableTemplate_0a0dc90e-6221-497b-8645-5bb1f7187fe0	Calendar(Date(2015,1,1), Date(2015,1,1))
+cyclic auction_history	DAX Column	MarketLowAvg (G) = 'cyclic auction_history'[market_value_Copper]/10000
+cyclic auction_history	DAX Column	Profit Over Vendor = 'cyclic auction_history'[Average market value] - RELATED('cyclic items'[vendor_price])/10000
+DateTableTemplate_0a0dc90e-6221-497b-8645-5bb1f7187fe0	DAX Column	Day = DAY([Date])
+DateTableTemplate_0a0dc90e-6221-497b-8645-5bb1f7187fe0	DAX Column	Month = FORMAT([Date], "MMMM")
+DateTableTemplate_0a0dc90e-6221-497b-8645-5bb1f7187fe0	DAX Column	MonthNo = MONTH([Date])
+DateTableTemplate_0a0dc90e-6221-497b-8645-5bb1f7187fe0	DAX Column	Quarter = "Qtr " & [QuarterNo]
+DateTableTemplate_0a0dc90e-6221-497b-8645-5bb1f7187fe0	DAX Column	QuarterNo = INT(([MonthNo] + 2) / 3)
+DateTableTemplate_0a0dc90e-6221-497b-8645-5bb1f7187fe0	DAX Column	Year = YEAR([Date])
+LocalDateTable_c031d902-e422-4f07-9b1d-8543cca405d8	DAX Column	Day = DAY([Date])
+LocalDateTable_c031d902-e422-4f07-9b1d-8543cca405d8	DAX Column	Month = FORMAT([Date], "MMMM")
+LocalDateTable_c031d902-e422-4f07-9b1d-8543cca405d8	DAX Column	MonthNo = MONTH([Date])
+LocalDateTable_c031d902-e422-4f07-9b1d-8543cca405d8	DAX Column	Quarter = "Qtr " & [QuarterNo]
+LocalDateTable_c031d902-e422-4f07-9b1d-8543cca405d8	DAX Column	QuarterNo = INT(([MonthNo] + 2) / 3)
+LocalDateTable_c031d902-e422-4f07-9b1d-8543cca405d8	DAX Column	Year = YEAR([Date])
+DAX Table	LocalDateTable_c031d902-e422-4f07-9b1d-8543cca405d8	Calendar(Date(Year(MIN(`cyclic auction_history`[Date])), 1, 1), Date(Year(MAX(`cyclic auction_history`[Date])), 12, 31))

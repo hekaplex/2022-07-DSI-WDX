@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c09d260e71d4183654a4631437526071a19e9ed60cd5b2ad7c5b76f326659ae9
-size 741
+def calculateFutureValue(monthlyInvestment, monthlyRate, months):
+#'''takes numbers and gives estimates'''    
+# iterator for length of calculation cycle
+    futureValue = 0.0
+    for i in range(months):
+#business logic
+        futureValue = (
+                futureValue
+                + monthlyInvestment
+            ) \
+            * \
+            ( \
+                1 
+                + monthlyRate
+            )
+#output of function
+    return futureValue
+
+monthlyInvestment = float(input("Configure Monthly Investment:\t"))
+monthlyRate = float(input("Configure Monthly Rate:\t"))
+months = int(input("Configure Months of investment:\t"))
+
+print("expected yield: $",round(calculateFutureValue(monthlyInvestment, monthlyRate, months),2))
