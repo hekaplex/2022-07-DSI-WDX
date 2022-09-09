@@ -72,3 +72,4 @@ ii. Proof of Technology (POT)
 3. Tour of working code 
 iii. Hybrid approach 
 1. Mix in between Pitch Deck & POT
+#############Edit for devops
