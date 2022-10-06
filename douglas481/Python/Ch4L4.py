@@ -14,12 +14,13 @@ def main():
         while itemcost!=0:
             itemcost = float(input("Cost of item: "))
             totalcost = totalcost + itemcost
-        (tax,total)=ST.salesRate(totalcost)
+        (tax,total)=ST.salesTax(totalcost)
         print(f"Total: {totalcost}")
         print(f"Sales tax: {tax}")
         print(f"Total after tax: {total}")
         print()
         choice=input("Again? (y/n): ")
+        print()
     print()
     print("Thanks, Bye!")
 if __name__ == "__main__":
