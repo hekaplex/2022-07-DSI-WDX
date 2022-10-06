@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./douglas481/Python"
+    ]
+}
