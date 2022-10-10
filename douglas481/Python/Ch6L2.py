@@ -17,7 +17,6 @@ def display_menu():
 def show(inventory):
     for i, item in enumerate(inventory, start=1):
         print(f"{i}. {item}")
-        print()
 #grab function
 def grab(inventory):
     if len(inventory)>=4:
