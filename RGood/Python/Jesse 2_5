@@ -1,0 +1,24 @@
+print("Travel Time Calculator")
+
+print("\n")
+
+
+
+miles = int(input("How many miles are you driving: "))
+
+mph = int(input("What is the speed limit on the road: "))
+
+
+
+hours = miles // mph
+
+minutes = miles % mph
+
+
+
+
+print("Estimated travel time")
+
+print(f"Hours: {hours}")
+
+print(f"Minutes: {minutes}")
