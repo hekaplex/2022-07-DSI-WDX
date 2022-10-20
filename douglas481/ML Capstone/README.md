@@ -1,6 +1,9 @@
-## Unknown
+## Sentiment Analysis
 # 
 ### Project Overview
+Pull data from https://github.com/KeithGalli/sklearn
+Used sentiments from Amazon reviews in 2014 to train model
+
 The dataset used is taken from actual ship movements captured several years ago. For this capstone I will have the following two sources:
 1. Vessel information (ownership, etc.)
 1. Information on port arrivals and departures
