@@ -1,0 +1,18 @@
+let
+    Source = Sql.Databases("localhost"),
+    #"AirlinePerformance-ODS_Worked_Folder" = Source{[Name="AirlinePerformance-ODS_Worked_Folder"]}[Data],
+    dbo_FAAMaster = #"AirlinePerformance-ODS_Worked_Folder"{[Schema="dbo",Item="FAAMaster"]}[Data],
+    #"Changed Type" = Table.TransformColumnTypes(dbo_FAAMaster,{{"Cert Issue Date", type date}}),
+    #"Removed Errors" = Table.RemoveRowsWithErrors(#"Changed Type", {"Cert Issue Date"}),
+    #"Removed Columns" = Table.RemoveColumns(#"Removed Errors",{"Other Name 1", "Other Name 2", "Other Name 3", "Other Name 4", "Other Name 5", "Kit Model", "Mose S Code Hex", "Fractional  Ownership"}),
+    #"Changed Type2" = Table.TransformColumnTypes(#"Removed Columns",{{"County ", Int64.Type}, {"ZIP", Int64.Type}}),
+    #"Replaced Value" = Table.ReplaceValue(#"Changed Type2","""","",Replacer.ReplaceText,{"City"}),
+    #"Added Custom" = Table.AddColumn(#"Replaced Value", "Zip Code", each Text.PadStart( Text.From( [ZIP] ), 5, "0" )),
+    #"Replaced Value1" = Table.ReplaceValue(#"Added Custom","""","",Replacer.ReplaceText,{"Status Code"}),
+    #"Replaced Value2" = Table.ReplaceValue(#"Replaced Value1","""","",Replacer.ReplaceText,{"Street 1"}),
+    #"Replaced Value3" = Table.ReplaceValue(#"Replaced Value2","""","",Replacer.ReplaceText,{"Name"}),
+    #"Replaced Value4" = Table.ReplaceValue(#"Replaced Value3","""","",Replacer.ReplaceText,{"Street2"}),
+    #"Removed Columns1" = Table.RemoveColumns(#"Replaced Value4",{"ZIP"}),
+    #"Replaced Value5" = Table.ReplaceValue(#"Removed Columns1","""","",Replacer.ReplaceText,{"Certification Requested "})
+in
+    #"Replaced Value5"

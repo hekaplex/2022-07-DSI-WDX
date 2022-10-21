@@ -1,0 +1,1407 @@
+DECLARE @jsonisland nvarchar(max);
+DECLARE @jsonpowerbi nvarchar(max)
+/*
+
+STEPS TO GET CODE READY FOR EXPORT
+1.  Save .PBIX file as a .PBIT template
+2.  Rename the file to a .ZIP file 
+    (may require unchecking "Hide extension for known file types")
+    from the View OPtions in Fiel Explorer
+3.  Navigate to the DataModelSchema file and 
+    replace any ' characters to ` 
+4.  Copy the entire JSON from string or SELECT into nvarchar(max) from table
+5.  replace <insert_json_here> with teh JSON
+*/
+set @jsonpowerbi = N'{
+  "name": "9fb2749b-c29e-4303-9784-0472ee2a8f60",
+  "compatibilityLevel": 1550,
+  "createdTimestamp": "2022-08-02T21:07:04.926667-04:00",
+  "lastUpdate": "2022-09-01T08:31:35.24-04:00",
+  "lastSchemaUpdate": "2022-08-02T21:07:04.926667-04:00",
+  "lastProcessed": "2022-08-04T11:38:54.993333-04:00",
+  "model": {
+    "culture": "en-US",
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-US",
+    "modifiedTime": "2022-08-03T01:08:29.633333",
+    "structureModifiedTime": "2022-08-04T15:31:33.753333",
+    "tables": [
+      {
+        "name": "cyclic auction_history",
+        "lineageTag": "b522183e-ab80-4ae0-9050-1a2591090ab3",
+        "modifiedTime": "2022-08-03T01:08:30.606667",
+        "structureModifiedTime": "2022-08-31T16:35:46.553333",
+        "columns": [
+          {
+            "type": "rowNumber",
+            "name": "RowNumber-2662979B-1795-4F74-8F37-6A1BA8059B61",
+            "dataType": "int64",
+            "isHidden": true,
+            "isUnique": true,
+            "isKey": true,
+            "isNullable": false,
+            "modifiedTime": "2022-08-03T01:08:29.64",
+            "structureModifiedTime": "2022-08-03T01:08:29.636667",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-04T15:38:55.513333",
+              "refreshedTime": "2022-08-04T15:38:55.513333"
+            }
+          },
+          {
+            "name": "itemid",
+            "dataType": "int64",
+            "sourceColumn": "itemid",
+            "formatString": "0",
+            "lineageTag": "f97c75ae-b74c-4943-8298-186714435120",
+            "summarizeBy": "none",
+            "modifiedTime": "2022-08-03T01:09:59.23",
+            "structureModifiedTime": "2022-08-03T01:08:30.606667",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-04T15:38:55.57",
+              "refreshedTime": "2022-08-04T15:38:55.57"
+            },
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic",
+                "modifiedTime": "2022-08-03T01:08:30.606667"
+              }
+            ]
+          },
+          {
+            "name": "market_value_Copper",
+            "dataType": "int64",
+            "sourceColumn": "market_value_Copper",
+            "formatString": "0",
+            "lineageTag": "834bc6a6-f9e2-4b85-bb20-b070e2367673",
+            "summarizeBy": "none",
+            "modifiedTime": "2022-08-03T15:39:57.596667",
+            "structureModifiedTime": "2022-08-03T01:08:30.606667",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-04T15:38:55.67",
+              "refreshedTime": "2022-08-04T15:38:55.67"
+            },
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User",
+                "modifiedTime": "2022-08-03T15:34:57.216667"
+              }
+            ]
+          },
+          {
+            "name": "min_buyout",
+            "dataType": "int64",
+            "sourceColumn": "min_buyout",
+            "formatString": "0",
+            "lineageTag": "53b57da3-77a3-4206-9e7a-d6741e1cdb96",
+            "summarizeBy": "sum",
+            "modifiedTime": "2022-08-04T17:28:37.643333",
+            "structureModifiedTime": "2022-08-03T01:08:30.606667",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-04T15:38:55.576667",
+              "refreshedTime": "2022-08-04T15:38:55.576667"
+            },
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User",
+                "modifiedTime": "2022-08-03T15:34:51.346667"
+              }
+            ]
+          },
+          {
+            "name": "Quantity",
+            "dataType": "int64",
+            "sourceColumn": "Quantity",
+            "formatString": "0",
+            "lineageTag": "143d9d81-e70f-4b2a-b8c4-227c7008b708",
+            "summarizeBy": "sum",
+            "modifiedTime": "2022-08-05T12:48:24.91",
+            "structureModifiedTime": "2022-08-03T01:08:30.606667",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-04T15:38:55.526667",
+              "refreshedTime": "2022-08-04T15:38:55.526667"
+            },
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User",
+                "modifiedTime": "2022-08-03T15:35:02.816667"
+              }
+            ]
+          },
+          {
+            "name": "Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Date",
+            "formatString": "General Date",
+            "lineageTag": "c4ff8b34-7e64-498a-9b22-f7f25ad6aa0b",
+            "summarizeBy": "none",
+            "modifiedTime": "2022-08-04T17:08:48.316667",
+            "structureModifiedTime": "2022-08-04T15:31:33.753333",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-04T15:38:55.586667",
+              "refreshedTime": "2022-08-04T15:38:55.586667"
+            },
+            "variations": [
+              {
+                "name": "Variation",
+                "relationship": "54c817a9-2706-467e-babf-2f77b60d31d7",
+                "defaultHierarchy": {
+                  "table": "LocalDateTable_c031d902-e422-4f07-9b1d-8543cca405d8",
+                  "hierarchy": "Date Hierarchy"
+                },
+                "isDefault": true
+              }
+            ],
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic",
+                "modifiedTime": "2022-08-03T01:08:30.606667"
+              }
+            ]
+          },
+          {
+            "type": "calculated",
+            "name": "MarketLowAvg (G)",
+            "dataType": "double",
+            "isDataTypeInferred": true,
+            "expression": "`cyclic auction_history`[market_value_Copper]/10000",
+            "formatString": "\\$#,0.###############;(\\$#,0.###############);\\$#,0.###############",
+            "lineageTag": "6be992e4-6d46-4980-96c4-a459a2c35a53",
+            "summarizeBy": "none",
+            "modifiedTime": "2022-08-05T13:54:35.123333",
+            "structureModifiedTime": "2022-08-03T01:19:33.713333",
+            "refreshedTime": "2022-08-04T15:38:58.88",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-04T15:38:59.046667",
+              "refreshedTime": "2022-08-04T15:38:59.046667"
+            },
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User",
+                "modifiedTime": "2022-08-03T15:35:18.093333"
+              },
+              {
+                "name": "PBI_ChangedProperties",
+                "value": "[\"FormatString\"]",
+                "modifiedTime": "2022-08-03T01:21:10.206667"
+              }
+            ]
+          },
+          {
+            "name": "Min vs avg mkt value",
+            "dataType": "string",
+            "sourceColumn": "Min vs avg mkt value",
+            "lineageTag": "bd6fab43-5a6f-4e7f-b15e-b26102c3b01b",
+            "summarizeBy": "none",
+            "modifiedTime": "2022-08-04T15:31:33.79",
+            "structureModifiedTime": "2022-08-04T15:31:33.753333",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-04T15:38:55.786667",
+              "refreshedTime": "2022-08-04T15:38:55.786667"
+            },
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic",
+                "modifiedTime": "2022-08-04T15:31:33.753333"
+              }
+            ]
+          },
+          {
+            "type": "calculated",
+            "name": "Profit Over Vendor",
+            "dataType": "double",
+            "isDataTypeInferred": true,
+            "expression": "`cyclic auction_history`[Average market value] - RELATED(`cyclic items`[vendor_price])/10000",
+            "lineageTag": "7cf6975a-0294-45f4-a194-e7ed1c3f8b47",
+            "summarizeBy": "sum",
+            "modifiedTime": "2022-08-31T16:41:42.96",
+            "structureModifiedTime": "2022-08-31T16:35:46.553333",
+            "refreshedTime": "2022-08-31T16:41:42.96",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-31T16:41:44.596667",
+              "refreshedTime": "2022-08-31T16:41:44.596667"
+            },
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic",
+                "modifiedTime": "2022-08-31T16:35:46.87"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}",
+                "modifiedTime": "2022-08-31T16:41:04.35"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "cyclic auction_history-aa814cf5-18ce-413e-89b4-8101f9f2c768",
+            "mode": "import",
+            "state": "ready",
+            "modifiedTime": "2022-08-05T12:48:24.896667",
+            "refreshedTime": "2022-08-04T15:38:54.993333",
+            "source": {
+              "type": "m",
+              "expression": "let\n    Source = Sql.Databases(\"localhost\"),\n    WoW_AH_Data = Source{[Name=\"WoW_AH_Data\"]}[Data],\n    cyclic_auction_history = WoW_AH_Data{[Schema=\"cyclic\",Item=\"auction_history\"]}[Data],\n    #\"Renamed Columns\" = Table.RenameColumns(cyclic_auction_history,{{\"market_value\", \"market_value_Copper\"}}),\n    #\"Changed Type\" = Table.TransformColumnTypes(#\"Renamed Columns\",{{\"scan_time\", type datetime}, {\"quantity\", Int64.Type}}),\n    #\"Removed Columns\" = Table.RemoveColumns(#\"Changed Type\",{\"scan_ts\"}),\n    #\"Added Custom\" = Table.AddColumn(#\"Removed Columns\", \"Min vs avg mkt value\", each [market_value_Copper]-[min_buyout]),\n    #\"Filtered Rows\" = Table.SelectRows(#\"Added Custom\", each [scan_time] > #datetime(2022, 2, 4, 0, 0, 0)),\n    #\"Renamed Columns1\" = Table.RenameColumns(#\"Filtered Rows\",{{\"scan_time\", \"Date\"}, {\"quantity\", \"Quantity\"}})\nin\n    #\"Renamed Columns1\""
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Total qty items",
+            "expression": "sum(`cyclic auction_history`[Quantity])",
+            "formatString": "0",
+            "lineageTag": "4b2055e6-924c-459f-a912-aba69aa9a92c",
+            "dataType": "int64",
+            "modifiedTime": "2022-08-05T12:48:24.92",
+            "structureModifiedTime": "2022-08-03T16:05:26.606667"
+          },
+          {
+            "name": "Total item cost (G)",
+            "expression": "SUM(`cyclic auction_history`[market_value_Copper])/10000",
+            "formatString": "#,0.0000",
+            "lineageTag": "63566c10-9fbd-4b07-9cea-1c9b82a14f30",
+            "dataType": "double",
+            "modifiedTime": "2022-08-04T14:17:56.593333",
+            "structureModifiedTime": "2022-08-03T16:08:35.596667",
+            "annotations": [
+              {
+                "name": "PBI_ChangedProperties",
+                "value": "[\"FormatString\"]",
+                "modifiedTime": "2022-08-03T16:15:56.633333"
+              }
+            ]
+          },
+          {
+            "name": "Average market value",
+            "expression": "divide(`cyclic auction_history`[Total item cost (G)], `cyclic auction_history`[Total qty items], 0)",
+            "formatString": "\\$#,0.0000;(\\$#,0.0000);\\$#,0.0000",
+            "lineageTag": "766fb822-69d8-4679-b405-3ee43d98b4ff",
+            "dataType": "double",
+            "modifiedTime": "2022-08-05T13:55:19.093333",
+            "structureModifiedTime": "2022-08-03T16:10:51.966667",
+            "annotations": [
+              {
+                "name": "PBI_ChangedProperties",
+                "value": "[\"FormatString\"]",
+                "modifiedTime": "2022-08-05T13:55:03.563333"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-US\"}",
+                "modifiedTime": "2022-08-05T13:55:19.093333"
+              }
+            ]
+          },
+          {
+            "name": "Total value on market",
+            "expression": "`cyclic auction_history`[Average market value]*`cyclic auction_history`[Total qty items]",
+            "formatString": "\\$#,0.0000;(\\$#,0.0000);\\$#,0.0000",
+            "lineageTag": "0498e136-0827-4c81-9dd5-ffbd3bc192ae",
+            "dataType": "double",
+            "modifiedTime": "2022-08-05T13:55:39.666667",
+            "structureModifiedTime": "2022-08-03T16:23:07.446667",
+            "annotations": [
+              {
+                "name": "PBI_ChangedProperties",
+                "value": "[\"FormatString\"]",
+                "modifiedTime": "2022-08-05T13:55:36.046667"
+              }
+            ]
+          },
+          {
+            "name": "Total value on market MoM%",
+            "expression": "\nIF(\n\tISFILTERED(`cyclic auction_history`[Date]),\n\tERROR(\"Time intelligence quick measures can only be grouped or filtered by the Power BI-provided date hierarchy or primary date column.\"),\n\tDIVIDE(\n\t\t[Total value on market] - CALCULATE(\n\t\t\t[Total value on market],\n\t\t\tDATEADD(`cyclic auction_history`[Date].[Date], -1, MONTH)\n\t\t),\n\t\tCALCULATE(\n\t\t\t[Total value on market],\n\t\t\tDATEADD(`cyclic auction_history`[Date].[Date], -1, MONTH)\n\t\t)\n\t)\n)",
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "625bc2de-43b9-466e-942f-44b7fe15cda1",
+            "dataType": "double",
+            "modifiedTime": "2022-08-31T16:08:52.193333",
+            "structureModifiedTime": "2022-08-31T16:08:51.746667",
+            "extendedProperties": [
+              {
+                "type": "json",
+                "name": "MeasureTemplate",
+                "value": {
+                  "version": 0,
+                  "daxTemplateName": "MonthOverMonth"
+                },
+                "modifiedTime": "2022-08-31T16:08:51.746667"
+              }
+            ],
+            "annotations": [
+              {
+                "name": "PBI_ChangedProperties",
+                "value": "[\"FormatString\"]",
+                "modifiedTime": "2022-08-31T16:08:52.193333"
+              }
+            ]
+          },
+          {
+            "name": "Total qty items DoD%",
+            "expression": "\nIF(\n\tISFILTERED(`cyclic auction_history`[Date]),\n\tERROR(\"Time intelligence quick measures can only be grouped or filtered by the Power BI-provided date hierarchy or primary date column.\"),\n\tDIVIDE(\n\t\t[Total qty items] - CALCULATE(\n\t\t\t[Total qty items],\n\t\t\tDATEADD(`cyclic auction_history`[Date].[Date], -1, DAY)\n\t\t),\n\t\tCALCULATE(\n\t\t\t[Total qty items],\n\t\t\tDATEADD(`cyclic auction_history`[Date].[Date], -1, DAY)\n\t\t)\n\t)\n)",
+            "formatString": "0.00%;-0.00%;0.00%",
+            "lineageTag": "c4800c93-5733-42d0-a219-bbf27ac6dbd2",
+            "dataType": "double",
+            "modifiedTime": "2022-08-31T16:14:48.443333",
+            "structureModifiedTime": "2022-08-31T16:14:17.77",
+            "extendedProperties": [
+              {
+                "type": "json",
+                "name": "MeasureTemplate",
+                "value": {
+                  "version": 0,
+                  "daxTemplateName": "MonthOverMonth"
+                },
+                "modifiedTime": "2022-08-31T16:14:17.77"
+              }
+            ],
+            "annotations": [
+              {
+                "name": "PBI_ChangedProperties",
+                "value": "[\"FormatString\"]",
+                "modifiedTime": "2022-08-31T16:14:18.203333"
+              }
+            ]
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table",
+            "modifiedTime": "2022-08-03T01:08:30.606667"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation",
+            "modifiedTime": "2022-08-04T15:31:33.606667"
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_0a0dc90e-6221-497b-8645-5bb1f7187fe0",
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "7782e777-0802-4413-8ea0-a3b2d94daf9c",
+        "modifiedTime": "2022-08-03T01:08:30.606667",
+        "structureModifiedTime": "2022-08-03T01:08:29.636667",
+        "columns": [
+          {
+            "type": "rowNumber",
+            "name": "RowNumber-2662979B-1795-4F74-8F37-6A1BA8059B61",
+            "dataType": "int64",
+            "isHidden": true,
+            "isUnique": true,
+            "isKey": true,
+            "isNullable": false,
+            "modifiedTime": "2022-08-03T01:08:29.64",
+            "structureModifiedTime": "2022-08-03T01:08:29.636667",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-03T01:09:58.946667",
+              "refreshedTime": "2022-08-03T01:09:58.946667"
+            }
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Date",
+            "dataType": "dateTime",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "sourceColumn": "[Date]",
+            "formatString": "General Date",
+            "lineageTag": "dd83d4a7-63c9-4b75-8713-8bda916c681a",
+            "dataCategory": "PaddedDateTableDates",
+            "summarizeBy": "none",
+            "modifiedTime": "2022-08-03T01:09:58.946667",
+            "structureModifiedTime": "2022-08-03T01:08:29.636667",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-03T01:09:58.946667",
+              "refreshedTime": "2022-08-03T01:09:58.946667"
+            },
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User",
+                "modifiedTime": "2022-08-03T01:08:29.64"
+              }
+            ]
+          },
+          {
+            "type": "calculated",
+            "name": "Year",
+            "dataType": "int64",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "lineageTag": "fe5bc01a-db41-4e45-97d8-fd37238a586a",
+            "dataCategory": "Years",
+            "summarizeBy": "none",
+            "modifiedTime": "2022-08-03T01:09:58.95",
+            "structureModifiedTime": "2022-08-03T01:08:29.636667",
+            "refreshedTime": "2022-08-03T01:09:58.95",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-03T01:09:58.95",
+              "refreshedTime": "2022-08-03T01:09:58.95"
+            },
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User",
+                "modifiedTime": "2022-08-03T01:08:29.64"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year",
+                "modifiedTime": "2022-08-03T01:08:29.64"
+              }
+            ]
+          },
+          {
+            "type": "calculated",
+            "name": "MonthNo",
+            "dataType": "int64",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "lineageTag": "c5b51ab4-fe1b-46ea-94c2-0b3cf70d2f0a",
+            "dataCategory": "MonthOfYear",
+            "summarizeBy": "none",
+            "modifiedTime": "2022-08-03T01:09:58.95",
+            "structureModifiedTime": "2022-08-03T01:08:29.636667",
+            "refreshedTime": "2022-08-03T01:09:58.95",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-03T01:09:58.95",
+              "refreshedTime": "2022-08-03T01:09:58.95"
+            },
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User",
+                "modifiedTime": "2022-08-03T01:08:29.64"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber",
+                "modifiedTime": "2022-08-03T01:08:29.64"
+              }
+            ]
+          },
+          {
+            "type": "calculated",
+            "name": "Month",
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "sortByColumn": "MonthNo",
+            "lineageTag": "83a7d84d-2aef-470d-b3ec-91befc7faf54",
+            "dataCategory": "Months",
+            "summarizeBy": "none",
+            "modifiedTime": "2022-08-03T01:09:58.95",
+            "structureModifiedTime": "2022-08-03T01:08:29.636667",
+            "refreshedTime": "2022-08-03T01:09:58.95",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-03T01:09:58.95",
+              "refreshedTime": "2022-08-03T01:09:58.95"
+            },
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User",
+                "modifiedTime": "2022-08-03T01:08:29.64"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month",
+                "modifiedTime": "2022-08-03T01:08:29.64"
+              }
+            ]
+          },
+          {
+            "type": "calculated",
+            "name": "QuarterNo",
+            "dataType": "int64",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "lineageTag": "fe8844d4-fd77-4805-ad43-59dc240384b8",
+            "dataCategory": "QuarterOfYear",
+            "summarizeBy": "none",
+            "modifiedTime": "2022-08-03T01:09:58.95",
+            "structureModifiedTime": "2022-08-03T01:08:29.636667",
+            "refreshedTime": "2022-08-03T01:09:58.95",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-03T01:09:58.953333",
+              "refreshedTime": "2022-08-03T01:09:58.953333"
+            },
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User",
+                "modifiedTime": "2022-08-03T01:08:29.64"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber",
+                "modifiedTime": "2022-08-03T01:08:29.64"
+              }
+            ]
+          },
+          {
+            "type": "calculated",
+            "name": "Quarter",
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "sortByColumn": "QuarterNo",
+            "lineageTag": "ae0d0732-4900-4537-b815-56572e101fd5",
+            "dataCategory": "Quarters",
+            "summarizeBy": "none",
+            "modifiedTime": "2022-08-03T01:09:58.953333",
+            "structureModifiedTime": "2022-08-03T01:08:29.636667",
+            "refreshedTime": "2022-08-03T01:09:58.953333",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-03T01:09:58.953333",
+              "refreshedTime": "2022-08-03T01:09:58.953333"
+            },
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User",
+                "modifiedTime": "2022-08-03T01:08:29.64"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter",
+                "modifiedTime": "2022-08-03T01:08:29.64"
+              }
+            ]
+          },
+          {
+            "type": "calculated",
+            "name": "Day",
+            "dataType": "int64",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "lineageTag": "89df43ce-3828-431c-921c-4041384388fb",
+            "dataCategory": "DayOfMonth",
+            "summarizeBy": "none",
+            "modifiedTime": "2022-08-03T01:09:58.95",
+            "structureModifiedTime": "2022-08-03T01:08:29.636667",
+            "refreshedTime": "2022-08-03T01:09:58.95",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-03T01:09:58.973333",
+              "refreshedTime": "2022-08-03T01:09:58.973333"
+            },
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User",
+                "modifiedTime": "2022-08-03T01:08:29.64"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day",
+                "modifiedTime": "2022-08-03T01:08:29.64"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "DateTableTemplate_0a0dc90e-6221-497b-8645-5bb1f7187fe0-bc60ceb1-4a62-4b4c-a9de-1fd2cc648aa3",
+            "mode": "import",
+            "state": "ready",
+            "modifiedTime": "2022-08-03T01:09:58.946667",
+            "refreshedTime": "2022-08-03T01:09:58.946667",
+            "source": {
+              "type": "calculated",
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))"
+            }
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "lineageTag": "d9497a85-c410-4954-9d01-b381eed58de5",
+            "state": "ready",
+            "modifiedTime": "2022-08-03T01:09:58.98",
+            "structureModifiedTime": "2022-08-03T01:08:29.64",
+            "refreshedTime": "2022-08-03T01:09:58.98",
+            "levels": [
+              {
+                "name": "Year",
+                "ordinal": 0,
+                "column": "Year",
+                "lineageTag": "a7e7779b-fbc8-4646-afab-c2c362e1e983",
+                "modifiedTime": "2022-08-03T01:08:30.606667"
+              },
+              {
+                "name": "Quarter",
+                "ordinal": 1,
+                "column": "Quarter",
+                "lineageTag": "1ba2f271-f3fa-4b03-9538-552f234d1878",
+                "modifiedTime": "2022-08-03T01:08:30.606667"
+              },
+              {
+                "name": "Month",
+                "ordinal": 2,
+                "column": "Month",
+                "lineageTag": "62f29910-1b08-4088-a6c5-9637c1a236ed",
+                "modifiedTime": "2022-08-03T01:08:30.606667"
+              },
+              {
+                "name": "Day",
+                "ordinal": 3,
+                "column": "Day",
+                "lineageTag": "404d90f7-475b-43e7-9f2b-476a6d548373",
+                "modifiedTime": "2022-08-03T01:08:30.606667"
+              }
+            ],
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy",
+                "modifiedTime": "2022-08-03T01:08:29.64"
+              }
+            ]
+          }
+        ],
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true",
+            "modifiedTime": "2022-08-03T01:08:29.64"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy",
+            "modifiedTime": "2022-08-03T01:08:29.64"
+          }
+        ]
+      },
+      {
+        "name": "cyclic items",
+        "lineageTag": "1921ad7f-9d9a-4ab0-813f-c216e8fe03d0",
+        "modifiedTime": "2022-08-03T01:08:30.606667",
+        "structureModifiedTime": "2022-08-04T17:21:46.416667",
+        "columns": [
+          {
+            "type": "rowNumber",
+            "name": "RowNumber-2662979B-1795-4F74-8F37-6A1BA8059B61",
+            "dataType": "int64",
+            "isHidden": true,
+            "isUnique": true,
+            "isKey": true,
+            "isNullable": false,
+            "modifiedTime": "2022-08-03T01:08:30.606667",
+            "structureModifiedTime": "2022-08-03T01:08:30.606667",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-03T01:09:58.956667",
+              "refreshedTime": "2022-08-03T01:09:58.956667"
+            }
+          },
+          {
+            "name": "itemid",
+            "dataType": "int64",
+            "sourceColumn": "itemid",
+            "formatString": "0",
+            "lineageTag": "5a4cd116-b01e-42e6-bd4b-1f4bcf1ffcb2",
+            "summarizeBy": "none",
+            "modifiedTime": "2022-08-03T01:09:59.23",
+            "structureModifiedTime": "2022-08-03T01:08:30.606667",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-03T01:09:58.96",
+              "refreshedTime": "2022-08-03T01:09:58.96"
+            },
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic",
+                "modifiedTime": "2022-08-03T01:08:30.606667"
+              }
+            ]
+          },
+          {
+            "name": "name",
+            "dataType": "string",
+            "sourceColumn": "name",
+            "lineageTag": "4e2b1cee-90a4-4ec6-803d-dd21df4c6389",
+            "summarizeBy": "count",
+            "modifiedTime": "2022-08-04T17:29:28.283333",
+            "structureModifiedTime": "2022-08-03T01:08:30.606667",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-03T01:09:59.016667",
+              "refreshedTime": "2022-08-03T01:09:59.016667"
+            },
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User",
+                "modifiedTime": "2022-08-04T17:29:28.283333"
+              }
+            ]
+          },
+          {
+            "name": "vendor_price",
+            "dataType": "int64",
+            "sourceColumn": "vendor_price",
+            "formatString": "0",
+            "lineageTag": "afe760f4-e6ee-4b8f-92dc-0fa797c6d313",
+            "summarizeBy": "none",
+            "modifiedTime": "2022-08-03T01:09:59.23",
+            "structureModifiedTime": "2022-08-03T01:08:30.606667",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-03T01:09:58.96",
+              "refreshedTime": "2022-08-03T01:09:58.96"
+            },
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic",
+                "modifiedTime": "2022-08-03T01:08:30.606667"
+              }
+            ]
+          },
+          {
+            "name": "rarity",
+            "dataType": "string",
+            "sourceColumn": "rarity",
+            "lineageTag": "d8f123b3-061f-4909-b3a4-4269e558319f",
+            "summarizeBy": "count",
+            "modifiedTime": "2022-08-04T17:29:38.64",
+            "structureModifiedTime": "2022-08-03T01:08:30.606667",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-03T01:09:58.956667",
+              "refreshedTime": "2022-08-03T01:09:58.956667"
+            },
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User",
+                "modifiedTime": "2022-08-04T17:29:38.64"
+              }
+            ]
+          },
+          {
+            "name": "category",
+            "dataType": "string",
+            "sourceColumn": "category",
+            "lineageTag": "a764a7ff-764c-44e2-aaa6-429a7768d0e1",
+            "summarizeBy": "none",
+            "modifiedTime": "2022-08-03T01:08:30.606667",
+            "structureModifiedTime": "2022-08-03T01:08:30.606667",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-03T01:09:58.956667",
+              "refreshedTime": "2022-08-03T01:09:58.956667"
+            },
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic",
+                "modifiedTime": "2022-08-03T01:08:30.606667"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "cyclic items-f009a344-9fe7-4064-816e-f94f2c70d494",
+            "mode": "import",
+            "state": "ready",
+            "modifiedTime": "2022-08-04T15:31:33.79",
+            "refreshedTime": "2022-08-03T01:08:33.796667",
+            "source": {
+              "type": "m",
+              "expression": "let\n    Source = Sql.Databases(\"localhost\"),\n    WoW_AH_Data = Source{[Name=\"WoW_AH_Data\"]}[Data],\n    cyclic_items = WoW_AH_Data{[Schema=\"cyclic\",Item=\"items\"]}[Data]\nin\n    cyclic_items"
+            }
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "category Hierarchy",
+            "lineageTag": "d31fa1fc-2b65-4f58-bf5e-6fb386678712",
+            "state": "ready",
+            "modifiedTime": "2022-08-05T12:25:05.256667",
+            "structureModifiedTime": "2022-08-04T17:22:36.036667",
+            "refreshedTime": "2022-08-05T12:25:05.256667",
+            "levels": [
+              {
+                "name": "rarity",
+                "ordinal": 0,
+                "column": "rarity",
+                "lineageTag": "579e423b-e211-452f-996e-272efde3e4d1",
+                "modifiedTime": "2022-08-04T17:22:28.303333"
+              },
+              {
+                "name": "category",
+                "ordinal": 1,
+                "column": "category",
+                "lineageTag": "c9e3052e-d6bb-47ab-929c-58cb8c1c7341",
+                "modifiedTime": "2022-08-04T17:22:36.036667"
+              }
+            ]
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table",
+            "modifiedTime": "2022-08-03T01:08:30.606667"
+          }
+        ]
+      },
+      {
+        "name": "LocalDateTable_c031d902-e422-4f07-9b1d-8543cca405d8",
+        "isHidden": true,
+        "showAsVariationsOnly": true,
+        "lineageTag": "3fbda429-5611-43fb-9025-ad3290726a38",
+        "modifiedTime": "2022-08-04T15:31:33.79",
+        "structureModifiedTime": "2022-08-04T15:31:33.753333",
+        "columns": [
+          {
+            "type": "rowNumber",
+            "name": "RowNumber-2662979B-1795-4F74-8F37-6A1BA8059B61",
+            "dataType": "int64",
+            "isHidden": true,
+            "isUnique": true,
+            "isKey": true,
+            "isNullable": false,
+            "modifiedTime": "2022-08-04T15:31:33.753333",
+            "structureModifiedTime": "2022-08-04T15:31:33.753333",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-04T15:38:55.59",
+              "refreshedTime": "2022-08-04T15:38:55.59"
+            }
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Date",
+            "dataType": "dateTime",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "sourceColumn": "[Date]",
+            "formatString": "General Date",
+            "lineageTag": "ca8d0058-a6ec-48a8-80df-164dce99095f",
+            "dataCategory": "PaddedDateTableDates",
+            "summarizeBy": "none",
+            "modifiedTime": "2022-08-04T15:38:55.586667",
+            "structureModifiedTime": "2022-08-04T15:31:33.753333",
+            "refreshedTime": "1699-12-31T00:00:00",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-04T15:38:55.6",
+              "refreshedTime": "2022-08-04T15:38:55.6"
+            },
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User",
+                "modifiedTime": "2022-08-04T15:31:33.753333"
+              }
+            ]
+          },
+          {
+            "type": "calculated",
+            "name": "Year",
+            "dataType": "int64",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "lineageTag": "3892354e-7b9a-47a1-94a7-ae1b0ebaa151",
+            "dataCategory": "Years",
+            "summarizeBy": "none",
+            "modifiedTime": "2022-08-04T15:38:55.603333",
+            "structureModifiedTime": "2022-08-04T15:31:33.753333",
+            "refreshedTime": "2022-08-04T15:38:55.603333",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-04T15:38:55.603333",
+              "refreshedTime": "2022-08-04T15:38:55.603333"
+            },
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User",
+                "modifiedTime": "2022-08-04T15:31:33.753333"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year",
+                "modifiedTime": "2022-08-04T15:31:33.753333"
+              }
+            ]
+          },
+          {
+            "type": "calculated",
+            "name": "MonthNo",
+            "dataType": "int64",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "lineageTag": "bdc521d1-ce75-4a8e-a865-6a0601979e32",
+            "dataCategory": "MonthOfYear",
+            "summarizeBy": "none",
+            "modifiedTime": "2022-08-04T15:38:55.603333",
+            "structureModifiedTime": "2022-08-04T15:31:33.753333",
+            "refreshedTime": "2022-08-04T15:38:55.603333",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-04T15:38:55.603333",
+              "refreshedTime": "2022-08-04T15:38:55.603333"
+            },
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User",
+                "modifiedTime": "2022-08-04T15:31:33.753333"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber",
+                "modifiedTime": "2022-08-04T15:31:33.753333"
+              }
+            ]
+          },
+          {
+            "type": "calculated",
+            "name": "Month",
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "sortByColumn": "MonthNo",
+            "lineageTag": "9e2787c3-d81a-41e3-8f64-c2139e6d539f",
+            "dataCategory": "Months",
+            "summarizeBy": "none",
+            "modifiedTime": "2022-08-04T15:38:55.603333",
+            "structureModifiedTime": "2022-08-04T15:31:33.753333",
+            "refreshedTime": "2022-08-04T15:38:55.603333",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-04T15:38:55.603333",
+              "refreshedTime": "2022-08-04T15:38:55.603333"
+            },
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User",
+                "modifiedTime": "2022-08-04T15:31:33.753333"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month",
+                "modifiedTime": "2022-08-04T15:31:33.753333"
+              }
+            ]
+          },
+          {
+            "type": "calculated",
+            "name": "QuarterNo",
+            "dataType": "int64",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "lineageTag": "179ff81d-37cc-4324-974c-fccf08c6066f",
+            "dataCategory": "QuarterOfYear",
+            "summarizeBy": "none",
+            "modifiedTime": "2022-08-04T15:38:55.603333",
+            "structureModifiedTime": "2022-08-04T15:31:33.753333",
+            "refreshedTime": "2022-08-04T15:38:55.603333",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-04T15:38:55.603333",
+              "refreshedTime": "2022-08-04T15:38:55.603333"
+            },
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User",
+                "modifiedTime": "2022-08-04T15:31:33.753333"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber",
+                "modifiedTime": "2022-08-04T15:31:33.753333"
+              }
+            ]
+          },
+          {
+            "type": "calculated",
+            "name": "Quarter",
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "sortByColumn": "QuarterNo",
+            "lineageTag": "473aa8db-02e3-47e4-a9e3-46e1fa2b19bd",
+            "dataCategory": "Quarters",
+            "summarizeBy": "none",
+            "modifiedTime": "2022-08-04T15:38:55.606667",
+            "structureModifiedTime": "2022-08-04T15:31:33.753333",
+            "refreshedTime": "2022-08-04T15:38:55.606667",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-04T15:38:55.606667",
+              "refreshedTime": "2022-08-04T15:38:55.606667"
+            },
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User",
+                "modifiedTime": "2022-08-04T15:31:33.753333"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter",
+                "modifiedTime": "2022-08-04T15:31:33.753333"
+              }
+            ]
+          },
+          {
+            "type": "calculated",
+            "name": "Day",
+            "dataType": "int64",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "lineageTag": "beaf84ac-0990-4e55-a895-72fbcce8e4e9",
+            "dataCategory": "DayOfMonth",
+            "summarizeBy": "none",
+            "modifiedTime": "2022-08-04T15:38:55.603333",
+            "structureModifiedTime": "2022-08-04T15:31:33.753333",
+            "refreshedTime": "2022-08-04T15:38:55.603333",
+            "attributeHierarchy": {
+              "state": "ready",
+              "modifiedTime": "2022-08-04T15:38:55.603333",
+              "refreshedTime": "2022-08-04T15:38:55.603333"
+            },
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User",
+                "modifiedTime": "2022-08-04T15:31:33.753333"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day",
+                "modifiedTime": "2022-08-04T15:31:33.753333"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "LocalDateTable_c031d902-e422-4f07-9b1d-8543cca405d8-2f585514-4145-4d34-8f95-1b87155532a2",
+            "mode": "import",
+            "state": "ready",
+            "modifiedTime": "2022-08-04T17:08:48.333333",
+            "refreshedTime": "2022-08-04T15:38:55.586667",
+            "source": {
+              "type": "calculated",
+              "expression": "Calendar(Date(Year(MIN(`cyclic auction_history`[Date])), 1, 1), Date(Year(MAX(`cyclic auction_history`[Date])), 12, 31))"
+            }
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "lineageTag": "cbf745cb-a548-4920-bcd6-2340f5bd7b59",
+            "state": "ready",
+            "modifiedTime": "2022-08-04T15:38:55.606667",
+            "structureModifiedTime": "2022-08-04T15:31:33.753333",
+            "refreshedTime": "2022-08-04T15:38:55.606667",
+            "levels": [
+              {
+                "name": "Year",
+                "ordinal": 0,
+                "column": "Year",
+                "lineageTag": "c7936e41-501d-4625-a4d2-c5abde1a83f7",
+                "modifiedTime": "2022-08-04T15:31:33.79"
+              },
+              {
+                "name": "Quarter",
+                "ordinal": 1,
+                "column": "Quarter",
+                "lineageTag": "8269cb6f-4d7a-4e26-b145-42ecc280b09a",
+                "modifiedTime": "2022-08-04T15:31:33.79"
+              },
+              {
+                "name": "Month",
+                "ordinal": 2,
+                "column": "Month",
+                "lineageTag": "d1b4a0f0-96f5-48bb-a6b0-2b85f1f1eb31",
+                "modifiedTime": "2022-08-04T15:31:33.79"
+              },
+              {
+                "name": "Day",
+                "ordinal": 3,
+                "column": "Day",
+                "lineageTag": "c33e4c5c-e79f-4251-b3a3-9552025d7fd3",
+                "modifiedTime": "2022-08-04T15:31:33.79"
+              }
+            ],
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy",
+                "modifiedTime": "2022-08-04T15:31:33.753333"
+              }
+            ]
+          }
+        ],
+        "annotations": [
+          {
+            "name": "__PBI_LocalDateTable",
+            "value": "true",
+            "modifiedTime": "2022-08-04T15:31:33.753333"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "name": "b800fde1-60e8-413a-9c1a-e38e1fbc8b8b",
+        "fromTable": "cyclic auction_history",
+        "fromColumn": "itemid",
+        "toTable": "cyclic items",
+        "toColumn": "itemid",
+        "state": "ready",
+        "modifiedTime": "2022-08-04T15:38:55.556667",
+        "refreshedTime": "2022-08-04T15:38:55.556667"
+      },
+      {
+        "name": "54c817a9-2706-467e-babf-2f77b60d31d7",
+        "fromTable": "cyclic auction_history",
+        "fromColumn": "Date",
+        "toTable": "LocalDateTable_c031d902-e422-4f07-9b1d-8543cca405d8",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly",
+        "state": "ready",
+        "modifiedTime": "2022-08-04T15:39:00.276667",
+        "refreshedTime": "2022-08-04T15:39:00.276667"
+      }
+    ],
+    "cultures": [
+      {
+        "name": "en-US",
+        "modifiedTime": "2022-08-03T01:07:05.176667",
+        "structureModifiedTime": "2022-08-03T01:07:05.176667",
+        "linguisticMetadata": {
+          "content": {
+            "Version": "1.0.0",
+            "Language": "en-US",
+            "DynamicImprovement": "HighConfidence"
+          },
+          "contentType": "json",
+          "modifiedTime": "2022-08-03T01:07:05.176667"
+        }
+      }
+    ],
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"cyclic auction_history\",\"cyclic items\"]",
+        "modifiedTime": "2022-08-03T01:08:29.64"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1",
+        "modifiedTime": "2022-08-03T01:08:29.64"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.107.841.0 (22.07)",
+        "modifiedTime": "2022-08-03T01:09:58.446667"
+      }
+    ]
+  }
+}'
+
+--get island of schema with table definitions
+SELECT @jsonisland = edgetable
+  FROM OPENJSON(@jsonpowerbi) 
+ with (edgetable nvarchar(max) '$.model.tables' AS JSON )
+
+/*
+earlier way to do it from table
+with 
+    [pbix_model]
+AS
+(
+    SELECT 
+        * 
+    FROM 
+        JSON_PBIT 
+    where 
+        [key] = 'model'
+)
+SELECT 
+    @jsonisland =  table_list.value 
+FROM 
+    [pbix_model]
+CROSS APPLY 
+OPENJSON(value)
+    table_list
+where 
+    table_list.[key] = 'tables'
+;
+*/
+
+
+--DAX columns
+
+SELECT 
+    table_name as [Table]
+    ,'DAX Column' AS [Object]
+    , col_name 
+        + ' = '
+        +  replace
+            (
+                DAX
+                ,'`'
+                ,char(39)
+            ) as [Code]
+from
+    OPENJSON(@jsonisland)
+        WITH
+            (
+                table_name VARCHAR(max) '$.name',
+                col_list NVARCHAR(max) '$.columns' AS JSON
+            )
+cross apply 
+    OPENJSON(col_list)
+        with 
+            (
+                col_name VARCHAR(max) '$.name'
+                ,DAX VARCHAR(max) '$.expression'
+            ) 
+            col_details
+        WHERE 
+            col_details.DAX is not null
+UNION ALL
+--DAX measures
+SELECT 
+    'DAX Measure' AS DAX_Object
+    ,table_name AS [Table]
+    , col_name 
+        + ' = '
+        +  replace
+            (
+                DAX
+                ,'`'
+                ,char(39)
+            )  AS DAX
+from
+    OPENJSON(@jsonisland)
+        WITH
+            (
+                table_name VARCHAR(max) '$.name',
+                col_list NVARCHAR(max) '$.measures' AS JSON
+            )
+cross apply 
+    OPENJSON(col_list)
+        with 
+            (
+                col_name VARCHAR(max) '$.name'
+                ,DAX VARCHAR(max) '$.expression'
+            ) 
+            col_details
+        WHERE 
+            col_details.DAX is not null            
+UNION ALL
+--DAX or M for Table Definition 
+SELECT 
+    CASE
+	WHEN substring(DAX,1,3) = 'let' THEN 'M Query' else 'DAX Table' END AS DAX_Object
+    ,table_name as [Table]
+    , DAX as [DAX]
+from
+    OPENJSON(@jsonisland)
+        WITH
+            (
+                table_name VARCHAR(max) '$.name',
+                col_list NVARCHAR(max) '$.partitions' AS JSON
+            )
+cross apply 
+    OPENJSON(col_list)
+        with 
+            (
+                col_name VARCHAR(max) '$.name'
+                ,DAX VARCHAR(max) '$.source.expression'
+            ) 
+            col_details
+        WHERE 
+            col_details.DAX is not null
+ORDER BY 2,1
+
+
+
+
+
+
+
+

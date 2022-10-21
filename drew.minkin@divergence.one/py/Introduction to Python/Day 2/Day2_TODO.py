@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:715382fc75166180c63cfa1c0677f27abd0525b04962b4a0eb36d08e0b47c41f
-size 325
+comment = """
+Day One
+=======================
+#at least one input
+#at least one validation of input in UI or code
+#at least one calculation
+#at least one returned value
+"""
+#at least one list, dictionary, tuple or set
+#read from at least one file
+#write to at least one file ( can be the same)
+#use SEH ( try, catch, finally)
