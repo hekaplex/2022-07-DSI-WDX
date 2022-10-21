@@ -1,0 +1,23 @@
+SHRINATH
+
+if 
+while
+for
+break 
+continue
+
+choice = "y"
+
+COMPETENT
+GOOD python (pandas, numpy)
+GOOD sql
+excel
+cloud cert
+visualization tool
+machine learning
+
+
+ERRORS:
+syntax
+runtime
+logic

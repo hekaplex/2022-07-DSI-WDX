@@ -1,0 +1,9 @@
+Let's Play PIG!
+
+Rules:
+* See how many turns it takes you to get to 20.
+* Turn ends when player rolls a 1 or chooses to hold.
+* If you roll a 1, you lose all points earned during the turn.
+* If you choose to hold, you add all points earned during the
+  turn to your total.
+* NOTE: Type 'x' to exit

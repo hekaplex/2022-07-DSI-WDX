@@ -1,0 +1,13 @@
+************Click on a name in the old file 
+	If it is active, the app populates with the new info
+		If info has changed, indicate changes**********
+
+
+092922-
+Power Automate:
+Sandbox environment
+New Solution: Ships Updater (https://learn.microsoft.com/en-us/power-apps/maker/data-platform/create-solution)
+
+
+
+

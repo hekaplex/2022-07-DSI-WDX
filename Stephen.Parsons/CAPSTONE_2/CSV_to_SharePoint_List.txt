@@ -1,0 +1,16 @@
+Importing data from a CSV file into a new SharePoint List:
+Highlight the data in your spreadsheet/ CSV file
+Click ‘Home’
+Click on ‘Format as a table’ and select any design of your choice
+In the next window, click ‘OK’
+Then, click in the search box and type ‘export’
+Click on ‘Export data’ and then select ‘Export table to SharePoint list’
+Go to your SharePoint site and copy the link
+Paste the link into ‘Address’
+Give the file a name
+Click ‘Next’
+In the next window, click ‘Finish,
+When the small window appears, click ‘OK’
+Open up your SharePoint site, your file should appear inside
+
+Single row work- use form to ppulate worksheet to flow

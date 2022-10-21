@@ -1,0 +1,257 @@
+2022dsiwd.database.windows.net
+admin2022dsiwd
+Divergence!2022dsiwd
+
+Azure Storage: 2022dsiwdazure6917822487
+
+SQL and POWER BI WILL GET YOU HIRED!!!
+
+SQL= Structured Query Language
+Datacamp is King 
+Azure Data Studio for SQL heavy work
+Pray for Kyiesha and her Mama
+
+schema visualization.exe
+
+Shame-free teaching
+Can run Python in memory in SQL
+SQL ON is dumb (fix it!) ???????????????????????????????????
+
+
+full table names best practice
+SHIFT+F1 looks up terms from querys
+SARG (Searcg Argument)=Boolean
+DataWarehouse is the cake. PowerBI , domo, cliq, etc is icing.
+
+Artist creating an analytic experience
+
+
+
+code page 1252 for ascii
+base on entire dataset 
+
+Rachael Ridenour:  Whatever Piece of the band you are playing in this orchestra of data
+AND
+Friends don't let friends build virtual bots inside Microsoft
+Chat bots arew only really useful for connecting to html sites (like a faq site) They will train on one quickly.
+ALSO: PowerApps is great for collecting first-person data
+
+
+Rachael Ridenour: The tools connect the points that already exist.
+
+
+
+
+Day 02 Homework
+Write 5 SELECT statements
+Between all queries you must use these clauses at some point but not all in any queries necessarily
+GROUP BY & HAVING
+WHERE
+JOIN ( at least one OUTER)
+ORDER BY
+AS to create a derived column
+CASE
+INTERSECT OR EXCEPT
+
+Cleophus and David s straight out of military
+
+Father of Biometrics "the moment you leave technology and become a manager, you're dead" Dr. Behnam (Ben) Bavarian (Worked with Drew)
+Drew worked at AMD, has a daughter
+"Let me start the recording since this has replay value..."(Drew after a question that had been addressed before maybe...)
+
+IN, LIKE, NOT BETWEEN or BETWEEN
+UNION
+DISTINCT
+Each query must have a business question describing what you answered
+in comments is OK for using SSMS
+
+
+Python>PQ>Scala(LEARN SCALA NEXT)
+
+use Text cells in Azure Data Studio notebooks
+
+SKYVIA
+52.190.252.0
+40.118.246.204
+13.86.253.112
+
+Normalization makes data in motion efficient(minimizes redundancy)
+Business key- like cust acct no
+JOIN and BRIDGE are LINK
+PKs get indexed!
+CHOOSE iterates
+NTILE() is assignable 
+KAGGLE USERNAME on Resume
+Participation in events to support your traction in your journey to ...
+
+***AdventureWorks2019 for Interview  prep***
+
+sqlcmd for command-line operations
+(1) FROM
+(2) WHERE
+(3) GROUP BY
+(4) HAVING
+(5) SELECT
+(6) ORDER BY
+(7) LIMIT
+
+API Application Programming Interface
+'Model' = Entity Relationship Diagram (ERD)= Map for understanding data
+***Can't query PowerBI dataset with SQL
+
+Queries>Datasets>reports
+ML=Data Mining
+Data In Motion (Data Emotion lol)
+SPSS,SAS,Stata (Old School Datasets)
+DirectQuery in Power BI only good for MS data source
+
+Spinny the BI worm
+
+
+
+ON Visual Code Studio: app.powerbi.com add url to folder pbix and folder reports.md 
+DM: 'Leverage synergies'
+
+PowerBI on Microsoft.docs: Drew used Analysis-Visualize-Model-Get Started and passed DA100 (He had some experience)
+
+REVIEW PIVOT TABLES
+
+Exam questions must be based in published documentation (**Build db of documentation for subjects of exam**)
+Modeling styles in modules similar to exams.
+
+
+
+https://www.crucial.com/scanview/91CB687231D926C3
+
+
+PowerQuery may be a test sample (defaults to top 1000 rows)
+
+BI Engineer
+ETL Engineer (E:check(PowerQuery edit=loading data into powerBI),
+
+AmazonGlue(quicksite=powerbi)Tatiana yashukev dev lead drew worked there hardcore webdev
+Drew mom russian jew
+yiddish
+Slicing needs no NULLs
+Transform> Fill Down
+be sure before stripping data elements
+
+******DATA WAREHOUSING REQs: =Data Engineer (Anal Eng, App DS, ML Engineer...)PowerBI gives you empathy for what da and ds need from 
+you. SQL!!! Azure Data Factory, Synapse, Data Bricks(GET CERT or DP500 and SQL experience) Synapse and DataBricks for building schemas for dbs.
+Understand what it takes to build a Data Warehouse,
+
+Donald Farmer was program mgr at power bi got to pitch to bill gates (play axis boy)
+
+In DAX: CALCULATE = ninja WHERE clause
+
+Drill Thru deprecated on mobile, because of mobile 
+
+Datamart in powerbi is cutting edge
+
+***POWERBI Does not automatically refresh***
+
+Data Engineer/Data Arch/ DBA/ Data Warehousing- specifically anal focused de job- needed skills for tabular data- skip ahead to module 8
+DeepLearning is dealing with more files than tables
+
+capstone: find data, cite it (Markdown as url), show work in Jupyter notebook.
+
+SPARK made DataBricks huge - Azure Synapse is MS answer to DataBricks
+PowerQuery legacy of Excel
+Flat File = Excel sheet w/tabs
+
+Data Engineering- learn to move one column from Power BI to SQL and back
+
+###############################################################################################################
+
+What is *_NEW?
+
+Separating kit code into three elemental columns may provide more granular analytics.
+
+Kyiesha: At the end of the day, the connections enable the analysis.
+
+
+
+
+
+My name is Stephen Michael Johnson Parsons.
+   I am a Sergeant First-Class in the North Carolina National Guard with 20+ years in service. 
+I have a decade in Military Intelligence Electronic Systems Maintenance and Integration, concentrated in Satellite Communications, working on systems rated SECRET and above.
+I have a active DoD TS-SCI clearance with a CI Poly.  I am currently learning Data Science with a projected graduation date of 02 DEC 2022. My goal of is to add this to my skillset and work in Data Warehousing.
+I'm the guy you can stick in a hole in the middle of nowhere and expect results.
+I work best alone or in small groups. 
+I will protect your secrets.
+I prefer the company of machines to that of people. (unless it's my kids or my wife) 
+
+
+
+(Don't off people)
+(Bring out a tie between prior experience and your interest in Data Warehousing)
+
+
+
+
+##############################################
+Dashboard Capstone
+Each team will create a folder for their work with subfolders for analytic assets generated
+
+sql
+pq
+Copy from Advanced Editor
+dax
+I'll show you how to extract it all in one shot in latter half
+pbix
+this will have URL to all presentations in it
+
+##############################################
+Drew's suggestions 16AUG AM:
+
+Check for similar column names in each table - GROUP BY name from INFORMATION_SCHEMA.COLUMNS on the tables with a HAVING count > 1. Check in a second query for a INNER JOIN to see if you get all the rows on both sides
+
+Use dynamic SQL to look for similar data types and distinct counts of values and try the JOIN checks again
+
+##############################################
+
+###Removing N from tail numbers (from Chris Davis):
+update Table_name
+set column = (column_name),(number to keep)###
+
+###SELECT * FROM INFORMATION_SCHEMA
+
+###GROUP BY * = row level
+
+Algorithm's first steps: Aggregate, Histogram
+####################################
+SQL Table TYPE is like Template
+
+########################
+Existing LABS:
+PYTHON
+R
+SAS Everything Else
+(Another language: Julia, trying to be Python)
+#################
+Drew has AMAZING continuity of speech and thought
+#################
+QUICKEST WAY TO GET FIRED in Enterprise Environment:
+
+Important!Two things to NEVER ask Power Query to Do
+    
+1. Do Slowly Changing Dimension processing on files
+	
+2. Look for newest version of a fact ( orderID, etc) on file
+###
+Azure Data Flow IS issi(?)[1:30ish in late recording on 8 sept) online
+
+Splunk for cysec IDS
+
+Don't forget EXPLANATORY analysis (make it pretty)
+
+Pandas day - 
+(for big data)
+sklearn
+power query
+spark 
+
+
+pandas is between power bi and sql
+pandas uses a lot of memory- 2-3 x wahat was on disk- just a bunch of lists running in the background

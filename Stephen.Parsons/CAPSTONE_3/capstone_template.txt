@@ -1,0 +1,8 @@
+Capstone 3 Analytic
+pick db
+turn into csv (cleaning/shaping)
+ingest (azure ds, sql server studio)
+sql work/queries (cleaning/shaping)
+power bi or azure ml
+
+

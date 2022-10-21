@@ -1,0 +1,47 @@
+DATA SET 1 
+
+Oil Tanker Movement 
+
+ 
+
+Domain 
+
+This dataset is taken from actual ship movements captured several years ago and includes 
+
+ 
+
+Near shore captures of actual ship positions 
+
+Satellite captures of actual ship positions 
+
+Vessel information (ownership, etc.) 
+
+Information on port arrivals and departures 
+
+ 
+
+Business Scenario 
+
+There are two big questions that machine learning can help address ultimately: 
+
+ 
+
+Port traffic forecasting is valuable business information to allow companies to make decisions on where to send goods to ensure speedy delivery. 
+
+Cargo will frequently be sold and bought several times in transit. In order to have a good understanding of the impact on ports, you will need to first understand where some ships are going and if they are changing courses 
+
+ 
+
+Specific Questions 
+
+How much do journeys vary between different journey’s start and end ports? 
+
+Are there any environmental factors (temperature or wind) that may account for the difference in journeys? 
+
+What are the trends of activity by vessel as average length of dwell or journeys on a weekly monthly or quarterly basis? 
+
+Are there any specific areas at sea where vessels seem to change direction on a journey?  What is the appropriate resolution to describe these regions of journey inflection? 
+
+What are the trends of port activity ( number of ships incoming vs outgoing)on a weekly monthly or quarterly basis? 
+
+ 

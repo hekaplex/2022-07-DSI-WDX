@@ -1,5 +1,5 @@
 print ("Registration Form")
-print ("\n")
+print ()
 
 firstName = input ("First Name: ")
 lastName = input ("Last Name: ")

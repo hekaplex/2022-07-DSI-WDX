@@ -1,0 +1,33 @@
+Select DISTINCT Readmitted as ra
+FROM dbo.ReadmissionData
+ORDER BY ra
+
+Select DISTINCT Readmitted as ra
+FROM dbo.ReadmissionData
+WHERE Readmitted = 'null'
+ORDER BY ra
+
+SELECT DISTINCT(COUNT(Readmitted))
+as ra_yes
+FROM dbo.ReadmissionData
+WHERE Readmitted ='yes'
+
+SELECT COUNT (Readmitted) as ra_no
+FROM dbo.ReadmissionData
+WHERE Readmitted ='no'
+
+Select DISTINCT(COUNT (Readmitted)) as ra_null
+FROM dbo.ReadmissionData
+WHERE Readmitted = 'null'
+
+
+
+
+
+
+
+
+
+
+
+
