@@ -1,4 +1,4 @@
-## Sentiment Analysis
+## Data Analysis and PDF creation via Python
 # 
 ### Project Overview
 Pull data from https://github.com/KeithGalli/generate-analytics-report
