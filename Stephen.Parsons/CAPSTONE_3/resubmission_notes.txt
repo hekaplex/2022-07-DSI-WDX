@@ -1,0 +1,31 @@
+https://divergenceone-my.sharepoint.com/:p:/g/personal/kingsley_scott_divergence_one/EaB3C-J6VDBGnzm6Lz3ySRcB_Y7x3VnM3sK5AeMnETFD_Q?rtime=dTtrX8a12kg
+
+
+Select dbo.ReadmissionData
+, dbo.PatientType
+, dbo.PatientReadmits
+, dbo.Language
+, dbo.Gender
+, dbo.EncounterCharlsonScore
+, dbo.EncounterCharlsonRaw
+, dbo.AdmitType
+, dbo.AdmitSource
+FROM Readmissions_StephenParsons
+
+REMOVE:
+dates (in/out)
+patient id
+
+FEATURE MOD: do it
+
+
+
+Recommend:
+REMEMBER- ALL YOU NEED is NOT AutoML
+
+Following this: add ignore rows to bottom in new cell and run
+
+runAutoML {"build_control":{"project_name":"readmissions_automl_trial","nfolds":0,"balance_classes":false,"stopping_criteria":{"seed":-1,"max_models":0,"max_runtime_secs":0,"max_runtime_secs_per_model":0,"stopping_rounds":3,"stopping_metric":"AUTO","stopping_tolerance":-1},"keep_cross_validation_predictions":true,"keep_cross_validation_models":true,"keep_cross_validation_fold_assignment":false},"input_spec":{"training_frame":"readmissions_train","response_column":"Discharge Code","validation_frame":"readmissions_test","blending_frame":"readmissions_train","leaderboard_frame":"readmissions_test","ignored_columns":[],"sort_metric":"AUTO"},"build_models":{"exclude_algos":[],"exploitation_ratio":-1,"monotone_constraints":[]}}, 'exec'
+
+
+

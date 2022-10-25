@@ -25,6 +25,11 @@ DataWarehouse is the cake. PowerBI , domo, cliq, etc is icing.
 
 Artist creating an analytic experience
 
+**regression published in powerbi workspace
+SuperStore = AdventureWorks for Tableau
+
+Analysis: mathematical opinion of what a general pattern is in nature
+
 
 
 code page 1252 for ascii
@@ -255,3 +260,14 @@ spark
 
 pandas is between power bi and sql
 pandas uses a lot of memory- 2-3 x wahat was on disk- just a bunch of lists running in the background
+
+bands,cuts,groups.buckets, bins= clustering
+(good to prep for supervised learming)
+
+silhouettes= how dense are our clusters?(help to decide cluster sizes to use)
+find good model, use clustering algorithm(prelude to work)  to take automatic output (good feature QUICK)
+
+IOS stores NOTES in SQLite db
+Jupyter is a platform- you can dev (panel is shiny for python- like powerapps and jupyter notebooks had a baby)
+
+Synapse based on Jupyter nb
