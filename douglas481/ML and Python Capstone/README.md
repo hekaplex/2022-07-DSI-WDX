@@ -1,9 +1,9 @@
-## Data Analysis and PDF creation via Python
+## Time Series Prediction Using Facebook Prophet
 # 
 ### Project Overview
-Pull data from https://github.com/KeithGalli/generate-analytics-report
+Pull data from https://irma.nps.gov/STATS/SSRSReports/Park%20Specific%20Reports/Visitation%20by%20Month?Park=GLAC
 
-Using python to make analysis and then creating a pdf from python
+Using python to predictive analysis of monthly visitor totals at Glacier National Park.
 
 The dataset used is taken from :
 1. Vessel 
